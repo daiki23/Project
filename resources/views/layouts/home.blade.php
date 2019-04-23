@@ -22,7 +22,8 @@
                                 <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">#BeSmartBeSecure</h4>
                                 
                                 <ul>
-                                   
+
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-envelope"></i><address>appnsec.laboratory@gmail.com</address></li>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>37, Gedung O ruang O301, Fakultas Teknik Elektro, Telkom University</address></li>
                                 </ul>
                                 
@@ -124,12 +125,12 @@
 
            <!--
         ===================
-           PORTFOLIO
+           DIVISI
         ===================
         -->
         <section class="mh-portfolio" id="mh-portfolio">
             <div class="container">
-                <div class="row section-separator">
+                
                     <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
                         <h3>Divisi</h3>
                     </div>
@@ -334,12 +335,22 @@
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-5">
                             <h2>Divisi IDS (Intrussion detection system)</h2>
-                            <p> Intrusion Detection System(IDS) merupakan sebuah sistem yang dapat mendeteksi aktivitas yang mencurigakan pada sebuah sistem atau jaringan. Jika ditemukan aktivitas yang mencurigakan pada traffic jaringan maka IDS akan memberikan sebuah peringatan terhadap sistem atau administrator jaringan dan melakukan analisis dan mencari bukti dari percobaan penyusupan. </p>       
+                            <p> Intrusion Detection System(IDS) merupakan sebuah sistem yang dapat mendeteksi aktivitas yang mencurigakan pada sebuah sistem atau jaringan. Jika ditemukan aktivitas yang mencurigakan pada traffic jaringan maka IDS akan memberikan sebuah peringatan terhadap sistem atau administrator jaringan dan melakukan analisis dan mencari bukti dari percobaan penyusupan. </p> 
+                            <br>
+                        <h2>Calon Asisten</h2>
+                        <p>-Dhanar Bintang Pratama(Dhanar)</p>
+                        <p>-Muhammad Hafiz Amrullah(Hafiz)</p>
+                        <p>-Michelle Octavia(Michelle)</p>
+                        <p>-Deny Kurniawan(Deny)</p>
+                        <p>-Dwi Sulistyowati(Sulis)</p>
+                        <p>-Muhammad Galih Prabowo(Galih)</p>
+                        <p>-Muh Nurkhaliz(Khaliz)</p>      
                         </div>
+                        
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="/source/assets/images/g3_ids.jpg" alt="" class="img-flgisd">
-                                <p>-</p>     
+                                     
                             </div>
                         </div>
                     </div>
@@ -352,12 +363,19 @@
                         <div class="col-sm-5">
                             <h2>Divisi VOIP (Voice Over Internet Protocol)</h2>
                             <p> Bergerak dalam pengembangan next generation network dan protocol
-                                telekomunikasi </p>       
+                                telekomunikasi </p>      
+                            <br>
+                        <h2>Calon Asisten :</h2>
+                        <p>-Muhammad Faza Izzaturrahman Nugroho(Faza)</p>
+                        <p>-Muhammad Kirana Baiduri(Kiran)</p>
+                        <p>-Iqbal Arbai(Iqbal)</p>
+                        <p>-Alam(alam)</p> 
                         </div>
+                        
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="/source/assets/images/portfolio/voip_2.png" alt="" class="img-flgisd">
-                                <p>-</p>     
+                                     
                             </div>
                         </div>
                     </div>
@@ -374,12 +392,21 @@
                             <h2>Divisi WEB</h2>
                             <p> Dokumen yang ditulis dalam format HTML (Hyper Text Markup Language),
                             diakses melalui protocol untuk menyampaikan informasi dari server website kepada
-                            client melalui browser. </p>       
+                            client melalui browser. </p> 
+                            <br>
+                            <h2>Calon Asisten</h2>
+                            <!-- <ul>
+                            <li>M.Rahadyan Dika Adji(Dika)</li>
+                             <li>Bayu Muhammas Iqbal(Iqbal/Bayu)</li>
+                            </ul> -->
+                            <p>-M.Rahadyan Dika Adji(Dika)</p>
+                            <p>-Bayu Muhammas Iqbal(Iqbal/Bayu)</p>
+                             
                         </div>
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="/source/assets/images/portfolio/web_1.png" alt="" class="img-flgisd">
-                                <p>-</p>     
+                                <p></p>     
                             </div>
                         </div>
                     </div>
@@ -392,8 +419,18 @@
                         <div class="col-sm-5">
                             <h2>Divisi Geographic Information System</h2>
                             <p> Membantu dalam perencanaan, pengawasan dan pengambilan keputusan dalam
-                                pembuatan jaringan di dalam suatu area tertentu. </p>       
+                                pembuatan jaringan di dalam suatu area tertentu. </p>    
+                            <br>
+                            <h2>Calon Asisten</h2>
+                            <!-- <ul>
+                            <li>M.Rahadyan Dika Adji(Dika)</li>
+                             <li>Bayu Muhammas Iqbal(Iqbal/Bayu)</li>
+                            </ul> -->
+                            <p>-Ananda satria utama(Nanda)</p>
+                            <p>-Muhammad Adnan Pramudito(Adnan)</p>   
                         </div>
+                       
+                              
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="/source/assets/images/portfolio/gis_2.png" alt="" class="img-flgisd">
@@ -410,12 +447,18 @@
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-5">
                             <h2>Divisi Game Technology</h2>
-                            <p> Berfokus mengembangkan teknologi dalam games dan game development </p>       
+                            <p> Berfokus mengembangkan teknologi dalam games dan game development </p> 
+                            <br>
+                        <h2>Calon Asisten</h2>
+                        <p>-Nizar Rizki Awany(Nizar)</p>
+                        <p>-Muhammad Fajar firdiansyah(Fajar)</p>
+                        <p>-Rafli Noveri Alfariji(Rafli)</p>       
                         </div>
+                        
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="/source/assets/images/portfolio/gamtech_2.png" alt="" class="img-flgisd">
-                                <p>-</p>     
+                                    
                             </div>
                         </div>
                     </div>
@@ -430,7 +473,12 @@
                             <p> Sebuah presentasi multimedia berbasis digitl yang dapat mengambil inputan user
                                         untuk melakukan beberapa aksi.
                                          </p>       
+                        <br>
+                        <h2>Calon Asisten</h2>
+                        <p>-Muhammad Risqi Risfianda(Risqi)</p>
+                        <p>-Dhea Dearly(Dhea)</p>                 
                         </div>
+                        
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="/source/assets/images/portfolio/iv_2.png" alt="" class="img-flgisd">
@@ -441,86 +489,98 @@
                 </div>
             </div>
         </section>
-        
-  
-        <!--
+
+
+        <!-- modal animasi -->
+
+        <div class="mh-portfolio-modal" id="animasi">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-12">
+                            <h2>Animasi </h2>
+                            <p> ini dummy </p>       
+                        </div>
+                         
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal game -->
+            <div class="mh-portfolio-modal" id="game">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-12">
+                            <h2>Game </h2>
+                            <p> ini dummy </p>       
+                        </div>
+                         
+                        
+                    </div>
+                </div>
+            </div>
+
+               <!--
         ===================
-           EXPERIENCES
+           ANIMASI
         ===================
         -->
-        <section class="mh-experince image-bg featured-img-one" id="mh-experience">
+        <section class="mh-animasi image-bg home-2-img" id="mh-animasi">
             <div class="img-color-overlay">
                 <div class="container">
                     <div class="row section-separator">
-                        <div class="col-sm-12 col-md-6">
-                            <div class="mh-education">
-                                <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
-                                <div class="mh-education-deatils">
-                                    <!-- Education Institutes-->
-                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                        <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                        <div class="mh-eduyear">2005-2008</div>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                        page when looking at its layout. The point of using  Lorem Ipsum </p>
-                                    </div>                                
-                                    <!-- Education Institutes-->
-                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                        <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                        <div class="mh-eduyear">2005-2008</div>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                        page when looking at its layout. The point of using  Lorem Ipsum </p>
-                                    </div>                                
-                                    <!-- Education Institutes-->
-                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                        <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                        <div class="mh-eduyear">2005-2008</div>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a 
-                                        page when looking at its layout. The point of using L orem Ipsum </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="mh-work">
-                                 <h3>Work Experience</h3>
-                                <div class="mh-experience-deatils">
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                                        <h4>gis/UX Designer <a href="#">IronSketch</a></h4>
-                                        <div class="mh-eduyear">2005-2008</div>
-                                        <span>Responsibility :</span>
-                                        <ul class="work-responsibility">
-                                            <li><i class="fa fa-circle"></i>Validate CSS</li>
-                                            <li><i class="fa fa-circle"></i>Project Management</li>
-                                        </ul>
-                                    </div>                                
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                        <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                        <div class="mh-eduyear">2005-2008</div>
-                                        <span>Responsibility :</span>
-                                        <ul class="work-responsibility">
-                                            <li><i class="fa fa-circle"></i>Validate CSS</li>
-                                            <li><i class="fa fa-circle"></i>Project Management</li>
-                                        </ul>
-                                    </div>                                
-                                    <!-- Education Institutes-->
-                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                        <h4>Art & Multimedia From <a href="#">Oxford University</a></h4>
-                                        <div class="mh-eduyear">2005-2008</div>
-                                        <span>Responsibility :</span>
-                                        <ul class="work-responsibility">
-                                            <li><i class="fa fa-circle"></i>Validate CSS</li>
-                                            <li><i class="fa fa-circle"></i>Project Management</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="each-quates col-sm-12 col-md-6">
+                            <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Animasi</h3>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Berikut Animasi Yang telah dibuat oleh calon asisten dari divisi Interactive Video(IV)</p>
+                            
+                            <a href="#mh-animasi" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" data-fancybox data-src="#animasi">Lihat</a>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
+
+                 <!--
+        ===================
+           Game
+        ===================
+        -->
+
+        <section class="mh-gane" id="mh-game">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            <img src="/source/assets/images/ab-img.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-inner">
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">Game</h2>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Berikut Game Yang telah dibuat oleh calon asisten dari divisi GameTech</p>
+<!--                             <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <ul>
+                                    <li><span>php</span></li>
+                                    <li><span>html</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>wordpress</span></li>
+                                    <li><span>React</span></li>
+                                    <li><span>Javascript</span></li>
+                                </ul>
+                            </div> -->
+                            <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" data-fancybox data-src="#game">Lihat <i class="fa fa-bullseye"  ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+  
+ 
         <!--
         ===================
            FOOTER 1
@@ -531,7 +591,7 @@
                 <div class="container">
                     <div class="row section-separator">
                         <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            <h3>Contact Me</h3>
+                            <h3>Hubungi Kami</h3>
                         </div>
                         <div class="col-sm-12 mh-footer-address">
                         
@@ -554,7 +614,7 @@
                                     </div>
                                     <!-- Subject Button -->
                                     <div class="btn-form col-sm-12">
-                                        <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                        <button type="submit" class="btn btn-fill btn-block" id="form-submit">Kirim Pesan</button>
                                     </div>
                                 </div>
                             </form>
