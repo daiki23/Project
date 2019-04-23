@@ -13,11 +13,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                 
         <!-- FAV AND ICONS   -->
-         <link href="/source/assets/images/logo_3.png" rel="icon">
-        <link rel="shortcut icon" href="/source/assets/images/logo_3.png">
+         <link href="/source/assets/images/logo_3.png" rel="shortcut icon">
+        <!-- <link rel="shortcut icon" href="/source/assets/images/logo_3.png">
         <link rel="shortcut icon" href="/source/assets/images/apple-icon.png">
         <link rel="shortcut icon" sizes="72x72" href="/source/assets/images/apple-icon-72x72.png">
-        <link rel="shortcut icon" sizes="114x114" href="/source/assets/images/apple-icon-114x114.png">
+        <link rel="shortcut icon" sizes="114x114" href="/source/assets/images/apple-icon-114x114.png"> -->
         
         <!-- Google Font-->
         <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
