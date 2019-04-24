@@ -158,7 +158,7 @@
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang pengembangan dan pembuatan Website</span>
                                                 <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                                 Sebuah Web page adalah dokumen yang ditulis dalam format HTML (Hyper Text Markup Language), yang hampir selalu bisa diakses melalui HTTP, yaitu protokol yang menyampaikan informasi dari server website untuk ditampilkan kepada para pemakai melalui web browser. Semua publikasi dari website-website tersebut dapat membentuk sebuah jaringan informasi yang sangat besar. Web page layaknya sebuah buku yang dapat menampung berbagai informasi tentang banyak hal baik bersifat komersil maupun non komersil. Melalui media web inilah seseorang dapat memberikan informasi tertentu kepada orang lain yang berada di seluruh dunia.</p>
-                                                <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s" data-fancybox data-src="#web">Lihat Calon Asisten</a>
+                                                <a href="https://drive.google.com/open?id=1KV9HztzkFQ0guKA_eoEbcTQNLwspcs67" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
 
                                                 <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                                                     <!-- <blockquote>
@@ -192,8 +192,9 @@
                                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">IDS</h2>
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang Intrusion Detection System</span>
                                                 <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Intrusion Detection System(IDS) merupakan sebuah sistem yang dapat mendeteksi aktivitas yang mencurigakan pada sebuah sistem atau jaringan. Jika ditemukan aktivitas yang mencurigakan pada traffic jaringan maka IDS akan memberikan sebuah peringatan terhadap sistem atau administrator jaringan dan melakukan analisis dan mencari bukti dari percobaan penyusupan..</p>
-                                                <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
-                                                <a class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Modul</a>
+                                                <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
+                                                <a href="https://drive.google.com/open?id=1KV9HztzkFQ0guKA_eoEbcTQNLwspcs67" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
+                                                <a href="https://www.dropbox.com/s/akywbc9le3goe7v/Modul_Ids%26Voip.docx?dl=1" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Modul</a>
                                                 <!-- <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                                                     <blockquote>
                                                         <q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
@@ -230,8 +231,9 @@
                                                 It will fit perfectly for Startup, Web App or any type of Web Services.
                                                 It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
                                                 All variations are organized separately so you can use / customize the template very easily.</p>
-                                                <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
-                                                <a class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Modul</a>
+                                                <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
+                                                <a href="https://drive.google.com/open?id=1KV9HztzkFQ0guKA_eoEbcTQNLwspcs67" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
+                                                <a href="https://www.dropbox.com/s/akywbc9le3goe7v/Modul_Ids%26Voip.docx?dl=1" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Modul</a>
                                                 <!-- <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                                                     <blockquote>
                                                         <q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
@@ -269,7 +271,8 @@
                                                 It will fit perfectly for Startup, Web App or any type of Web Services.
                                                 It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
                                                 All variations are organized separately so you can use / customize the template very easily.</p>
-                                                <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
+                                                <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
+                                                <a href="https://drive.google.com/open?id=1KV9HztzkFQ0guKA_eoEbcTQNLwspcs67" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                 <!-- <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                                                     <blockquote>
                                                         <q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
@@ -306,7 +309,8 @@
                                                 It will fit perfectly for Startup, Web App or any type of Web Services.
                                                 It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
                                                 All variations are organized separately so you can use / customize the template very easily.</p>
-                                                <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
+                                               <!--  <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
+                                               <a href="https://drive.google.com/open?id=1KV9HztzkFQ0guKA_eoEbcTQNLwspcs67" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                 <!-- <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                                                     <blockquote>
                                                         <q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
@@ -343,7 +347,8 @@
                                                 It will fit perfectly for Startup, Web App or any type of Web Services.
                                                 It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
                                                 All variations are organized separately so you can use / customize the template very easily.</p>
-                                                <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
+                                                <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
+                                                <a href="https://drive.google.com/open?id=1KV9HztzkFQ0guKA_eoEbcTQNLwspcs67" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                <!--  <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
                                                     <blockquote>
                                                         <q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
