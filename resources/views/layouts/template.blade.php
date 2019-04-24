@@ -154,7 +154,7 @@
     <script src="/source/assets/plugins/js/isotope.pkgd.js"></script>
     <script src="/source/assets/plugins/js/packery-mode.pkgd.js"></script>
     <!-- Custom Scripts-->
-    <script src="/source/assets/js/map-init.js"></script>
+    <!-- <script src="/source/assets/js/map-init.js"></script> -->
     <script src="/source/assets/js/custom-scripts.js"></script>
 
 
@@ -1645,79 +1645,79 @@ var garis63 = [
       var markers = [
         {
           coords:{lat:-6.9742851,lng:107.6309633},
-          content:'<h1>Gedung A</h1>'
+          content:'<h2>Gedung A</h2>'
         },
         {
           coords:{lat:-6.9733192,lng:107.6310673},
-          content:'<h1>Danau Galau</h1>'
+          content:'<h2>Danau Galau</h2>'
         },
         {
           coords:{lat:-6.976399,lng:107.6307125},
-          content:'<h1>Gedung Serba Guna</h1>'
+          content:'<h2>Gedung Serba Guna</h2>'
         },
         {
           coords:{lat:-6.974837,lng:107.630969},
-          content:'<h1>Gedung B</h1>'
+          content:'<h2>Gedung B</h2>'
         },
         {
           coords:{lat:-6.973964,lng:107.630293},
-          content:'<h1>Rektorat</h1>'
+          content:'<h2>Rektorat</h2>'
         },
         {
           coords:{lat:-6.975500,lng:107.629639},
-          content:'<h1>Gedung P</h1>'
+          content:'<h2>Gedung P</h2>'
         },
         {
           coords:{lat:-6.976155,lng:107.629728},
-          content:'<h1>Gedung O</h1>'
+          content:'<h2>Gedung O</h2>'
         },
         {
           coords:{lat:-6.976570,lng:107.629329},
-          content:'<h1>Gedung N</h1>'
+          content:'<h2>Gedung N</h2>'
         },
         {
           coords:{lat:-6.977481,lng:107.629406},
-          content:'<h1>Student Center</h1>'
+          content:'<h2>Student Center</h2>'
         },
         {
           coords:{lat:-6.970624,lng:107.627913},
-          content:'<h1>Asrama Putra</h1>'
+          content:'<h2>Asrama Putra</h2>'
         },
         {
           coords:{lat:-6.973329,lng:107.628778},
-          content:'<h1>Asrama Putri</h1>'
+          content:'<h2>Asrama Putri</h2>'
         },
         {
           coords:{lat:-6.972972,lng:107.629570},
-          content:'<h1>GKU</h1>'
+          content:'<h2>GKU</h2>'
         },
         {
           coords:{lat:-6.975766,lng:107.632061},
-          content:'<h1>MSU</h1>'
+          content:'<h2>MSU</h2>'
         },
         {
           coords:{lat:-6.971381,lng:107.631167},
-          content:'<h1>TUCH</h1>'
+          content:'<h2>TUCH</h2>'
         },
         {
           coords:{lat:-6.971887,lng:107.631383},
-          content:'<h1>FIK</h1>'
+          content:'<h2>FIK</h2>'
         },
         {
           coords:{lat:-6.971524,lng:107.632205},
-          content:'<h1>FEB, FKB</h1>'
+          content:'<h2>FEB, FKB</h2>'
         },
         {
           coords:{lat:-6.973091,lng:107.632488},
-          content:'<h1>FIK</h1>'
+          content:'<h2>FIK</h2>'
         },
         {
           coords:{lat:-6.975540,lng:107.631083},
-          content:'<h1>FRI</h1>'
+          content:'<h2>FRI</h2>'
         },
         {
           coords:{lat:-6.975808,lng:107.630699},
-          content:'<h1>FI</h1>'
+          content:'<h2>FI</h2>'
         },
         
       ];
