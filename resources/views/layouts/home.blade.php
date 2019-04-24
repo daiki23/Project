@@ -24,19 +24,21 @@
                                 <ul>
 
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-envelope"></i><address>appnsec.laboratory@gmail.com</address></li>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-phone"></i><address>8001</address></li>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>37, Gedung O ruang O301, Fakultas Teknik Elektro, Telkom University</address></li>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-instagram"></i><address>apspnec.lab</address></li>
                                 </ul>
                                 
-                                <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                               <!--  <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                    <li><i class="fab fa-line"></i></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <div class="img-border">
-                                    <img src="/source/assets/images/ANS_2.png" alt=""  class="img-flgisd">
+                                    <img src="/source/assets/images/ANSKUH.png" alt=""  class="img-flgisd">
                                 </div>
                             </div>
                         </div>
@@ -44,6 +46,27 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- <div class="span4 proj-div" data-toggle="modal" data-target="#GSCCModal">Clickable content, graphics, whatever</div>
+
+<div id="GSCCModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
   
 
         <section class="mh-about" id="mh-about">
@@ -483,8 +506,15 @@
                 </div>
             </div>
 
-
-            
+                        <!-- <div class="webgl-content">
+                          <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                          <div class="footer">
+                            <div class="webgl-logo"></div>
+                            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                            <div class="title">Endless Rocket 2D</div>
+                          </div>
+                        </div>    
+             -->
 
 
         <!-- modal animasi -->
@@ -512,14 +542,25 @@
                 <div class="container">
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-12">
-                            <h2>Game </h2>
-                            <p> ini dummy </p>       
+                            <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FMdaJh81ediWFZhzwAfIZbi5QzsC2%2Fcontent%2Fb67d9937-f6e7-3302-56e7-3525288d867d&imagePath=screens/0.png" style="width:1120px;height:540px;border:0"></iframe>
+
+                         <div class="webgl-content">
+                          <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                          <div class="footer">
+                            <div class="webgl-logo"></div>
+                            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                            <div class="title">Endless Rocket 2D</div>
+                          </div>
+                        </div>    
+
                         </div>
                          
                         
                     </div>
                 </div>
             </div>
+
+
 
 
             <!-- modal Website -->

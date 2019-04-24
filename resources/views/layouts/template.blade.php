@@ -45,6 +45,13 @@
         <link rel="alternate stylesheet" href="/source/assets/css/colors/purple.css" title="purple"> 
         <link rel="alternate stylesheet" href="/source/assets/css/colors/slate.css" title="slate">
         <link rel="alternate stylesheet" href="/source/assets/css/colors/yellow.css" title="yellow">
+
+    <link rel="stylesheet" href="/assets/game/TemplateData/style.css">
+    <script src="/assets/game/TemplateData/UnityProgress.js"></script>  
+    <script src="/assets/game/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Endless Rocket 2D.json", {onProgress: UnityProgress});
+    </script>
         
     </head>
     <body class="dark-vertion black-bg">

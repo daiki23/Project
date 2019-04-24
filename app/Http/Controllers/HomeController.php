@@ -40,5 +40,11 @@ class HomeController extends Controller
         return view('layouts/review');
     }
 
+    public function game()
+    {
+        //
+        return view('layouts/game');
+    }
+
 
 }

@@ -23,6 +23,15 @@ class CariController extends Controller
         //
     }
 
+    public function searchAsisten(Request $request)
+    {
+        $query = $request->get('q');
+        $hasil = kamera::where('merk', 'LIKE', '%' . $query . '%')->orWhere('tipe','LIKE','%'.$query.'%')->orWhere('id_kamera','LIKE','%'.$query.'%')->paginate(10);
+     
+
+        return view('admin/resultKamera',compact('hasil','query'));
+    }
+
 
     public function searchKamera(Request $request)
     {
@@ -32,6 +41,9 @@ class CariController extends Controller
 
         return view('admin/resultKamera',compact('hasil','query'));
     }
+
+
+
 
         public function searchLensa(Request $request)
     {
@@ -47,6 +59,15 @@ class CariController extends Controller
         $hasil = aksesoris::where('jenis','LIKE','%'.$query.'%')->orWhere('tipe','LIKE','%'.$query.'%')->orWhere('id','LIKE','%'.$query.'%')->paginate(10);
 
         return view('/admin/resultAksesoris',compact('hasil','query'));
+    }
+
+    public function homeAsisten(Request $request)
+    {
+        $query = $request->get('q');
+        $hasil = kamera::where('merk', 'LIKE', '%' . $query . '%')->orWhere('tipe','LIKE','%'.$query.'%')->paginate(10);
+     
+
+        return view('/layouts/result_sewaKamera',compact('hasil','query'));
     }
 
         public function homeKamera(Request $request)

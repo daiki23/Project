@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Endless Rocket 2D",
+"dataUrl": "Endless Rocket 2D.data.unityweb",
+"asmCodeUrl": "Endless Rocket 2D.asm.code.unityweb",
+"asmMemoryUrl": "Endless Rocket 2D.asm.memory.unityweb",
+"asmFrameworkUrl": "Endless Rocket 2D.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
