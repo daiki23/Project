@@ -14,6 +14,12 @@ class HomeController extends Controller
     }
 
 
+    public function calon_asisten()
+    {
+        return view('layouts/asisten');
+    }
+
+
     public function events()
     {
         //

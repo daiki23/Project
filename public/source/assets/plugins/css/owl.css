@@ -99,9 +99,11 @@
   opacity: 0;
 }
 .owl-carousel .owl-refresh .owl-item {
+  width: 255px;
   display: none;
 }
 .owl-carousel .owl-item {
+
   position: relative;
   min-height: 1px;
   float: left;
@@ -111,14 +113,16 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;    
 }
 .owl-carousel .owl-item img {
+  width: 255px;
   display: block;
   width: 100%;
   -webkit-transform-style: preserve-3d;
 }
 .owl-carousel.owl-text-select-on .owl-item {
+  width: 255px;
   -webkit-user-select: auto;
   -moz-user-select: auto;
   -ms-user-select: auto;
@@ -135,6 +139,7 @@
   direction: rtl;
 }
 .owl-carousel.owl-rtl .owl-item {
+  width: 255px;
   float: right;
 }
 
@@ -147,6 +152,7 @@
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
+  width: 255px;
   opacity: 0;
   -webkit-transition: opacity 400ms ease;
   -moz-transition: opacity 400ms ease;
@@ -155,6 +161,7 @@
   transition: opacity 400ms ease;
 }
 .owl-carousel .owl-item img {
+  width: 255px;
   transform-style: preserve-3d;
 }
 

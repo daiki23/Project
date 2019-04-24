@@ -84,7 +84,7 @@
                                    <a class="nav-link" href="#mh-skills">Skills</a>
                                 </li>  -->                               
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#mh-portfolio">Divisi</a>
+                                    <a class="nav-link" href="#mh-divisi">Divisi</a>
                                 </li>    
                                 <li class="nav-item">
                                    <a class="nav-link" href="#mh-animasi">Animasi</a>
@@ -166,6 +166,8 @@
     <link rel="stylesheet" href="demo/demo.css">
     <script type="text/javascript" src="demo/styleswitcher.js"></script>
     <script type="text/javascript" src="demo/demo.js"></script>
+
+    
         
 </body>
 
