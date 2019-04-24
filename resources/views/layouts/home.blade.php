@@ -485,11 +485,12 @@
         <!-- modal animasi -->
 
         <div class="mh-portfolio-modal" id="animasi">
-                <div class="container">
+                <div class="animasi">
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-12">
-                            <h2>Animasi </h2>
-                            <p> ini dummy </p>       
+                              <iframe width="1120" height="540" src="//www.youtube.com/embed/yXpTpic06-U"frameborder="0" allowfullscreen>
+
+                              </iframe>
                         </div>
                          
                         
@@ -497,6 +498,10 @@
                 </div>
             </div>
 
+          
+               
+ 
+            
             <!-- modal game -->
             <div class="mh-portfolio-modal" id="game">
                 <div class="container">
@@ -669,9 +674,11 @@
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <div class="mh-map">
                                 <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1dyuQqm8RcoXh-Hio4KsG7tnrIMFYo9UB" ></iframe> -->
-                                <div style="position:relative;padding-top:56.25%;">
-                                  <iframe src="https://www.google.com/maps/d/embed?mid=1dyuQqm8RcoXh-Hio4KsG7tnrIMFYo9UB" frameborder="0" allowfullscreen
-                                    style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                                
+                                  <div style="position:relative;padding-top:56.25%;" id="map">
+                                      
+
+                                  </div>
                                 </div>
                             </div>
                         </div>
