@@ -17,10 +17,10 @@
                                 <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
                                     <span>Selamat Datang</span>
                                 </div>
-                                
+
                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Application & Security Laboratory</h2>
                                 <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">#BeSmartBeSecure</h4>
-                                
+
                                 <ul>
 
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-envelope"></i><address>appnsec.laboratory@gmail.com</address></li>
@@ -28,7 +28,7 @@
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>37, Gedung O ruang O301, Fakultas Teknik Elektro, Telkom University</address></li>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-instagram"></i><address>apspnec.lab</address></li>
                                 </ul>
-                                
+
                                <!--  <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                    <li><i class="fab fa-line"></i></li>
@@ -67,7 +67,7 @@
     </div>
   </div>
 </div> -->
-  
+
 
         <section class="mh-about" id="mh-about">
             <div class="container">
@@ -99,7 +99,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!--
         ===================
            SERVICE
@@ -177,7 +177,7 @@
                                             <div class="mh-featured-project-content">
                                                 <h2 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Divisi</h2>
                                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">WEB</h2>
-                                                
+
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang pengembangan dan pembuatan Website</span>
                                                 <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                                 Sebuah Web page adalah dokumen yang ditulis dalam format HTML (Hyper Text Markup Language), yang hampir selalu bisa diakses melalui HTTP, yaitu protokol yang menyampaikan informasi dari server website untuk ditampilkan kepada para pemakai melalui web browser. Semua publikasi dari website-website tersebut dapat membentuk sebuah jaringan informasi yang sangat besar. Web page layaknya sebuah buku yang dapat menampung berbagai informasi tentang banyak hal baik bersifat komersil maupun non komersil. Melalui media web inilah seseorang dapat memberikan informasi tertentu kepada orang lain yang berada di seluruh dunia.</p>
@@ -248,12 +248,12 @@
                                             <div class="mh-featured-project-content">
                                                 <h2 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Divisi</h2>
                                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">VOIP</h2>
-                                                
+
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang Voice Over IP</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
-                                                It will fit perfectly for Startup, Web App or any type of Web Services.
-                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
-                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Voice over Internet Protocol (juga disebut VoIP, IP Telephony, Internet telephony atau Digital Phone) adalah teknologi yang memungkinkan percakapan suara jarak jauh melalui media internet. Data suara diubah menjadi kode digital dan dialirkan melalui jaringan yang mengirimkan paket-paket data, dan bukan lewat sirkuit analog telepon biasa.
+Definisi VoIP adalah suara yang dikirim melalui protokol internet (IP).
+Pada jaringan suara konvesional pesawat telepon langsung terhubung dengan PABX (Privat Automated Branch exchange) atau jika milik TELKOM terhubung langsung dengan STO (Sentral telepon Otomat) terdekat. Dalam STO ini ada daftar nomor-nomor telepon yang disusun secara bertingkat sesuai dengan daerah cakupannya. Jika dari pesawat telepon tersebut mau menghubungi rekan yang lain maka tuts pesawat telepon yang ditekan akan menginformasikan lokasi yang dituju melalui nada-nada DTMF, kemudian jaringan akan secara otomatis menghubungkan kedua titik tersebut.
+Bentuk paling sederhana dalam sistem VoIP adalah dua buah komputer terhubung dengan internet. Syarat-syarat dasar untuk mengadakan koneksi VoIP adalah komputer yang terhubung ke internet, mempunyai kartu suara yang dihubungkan dengan speaker dan mikropon. Dengan dukungan perangkat lunak khusus, kedua pemakai komputer bisa saling terhubung dalam koneksi VoIP satu sama lain.</p>
                                                 <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
                                                 <a href="/asisten2" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                 <a href="https://www.dropbox.com/s/akywbc9le3goe7v/Modul_Ids%26Voip.docx?dl=1" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Modul</a>
@@ -288,12 +288,19 @@
                                             <div class="mh-featured-project-content">
                                                 <h2 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Divisi</h2>
                                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">GAMETECH</h2>
-                                                
+
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang Pembuatan dan Pengembangan Game</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
-                                                It will fit perfectly for Startup, Web App or any type of Web Services.
-                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
-                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Divisi GAMETECH merancang, membuat, dan menghidupkan sebuah dunia virtual baru yang penuh dengan strategi, intrik, dan animasi visual.
+
+Oleh karena itu, kamu harus memiliki kreativitas yang tinggi untuk bisa mendesain sebuah video game yang unik, menarik secara visual, dan menggelitik para penikmat game untuk semakin penasaran memainkannya.
+
+Seorang game developer harus mampu membangun plot cerita yang menantang gamers, mendorong mereka untuk membeli game baru yang dirilis untuk distribusi publik.
+
+Selain cerita, para tokoh atau karakter juga menjadi daya tarik yang penting bagi sebuah video game. Karakter utama yang atraktif biasanya menjadi pusat dari cerita sebuah game.
+
+Karakter yang menarik dan related dengan pribadi gamer akan menarik mereka untuk terus memainkan game tersebut dan menyelesaikan semua tantangan.
+
+Selain kreativitas dalam mendesain cerita dan karakter, seorang video game developer harus memiliki perhatian tinggi pada detil desain.</p>
                                                 <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
                                                 <a href="/asisten2" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                 <!-- <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
@@ -328,10 +335,7 @@
                                                 <h2 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Divisi</h2>
                                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Interactive Video</h2>
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang Pembuatan Video Interaktif</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
-                                                It will fit perfectly for Startup, Web App or any type of Web Services.
-                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
-                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">video interaktif adalah metode komunikasi di mana output dari media berasal dari masukan dari pengguna.[1] Media interaktif yang bekerja dengan pengguna partisipasi. Media masih memiliki tujuan yang sama tapi masukan pengguna menambahkan interaksi dan membawa fitur-fitur menarik untuk sistem untuk kenikmatan yang lebih baik.Berdasarkan penjelasan pada jenis-jenis media pembelajaran, bahwa Seels & Glasgow (dalam Arsyad,2002:33) mengelompokkan media interaktif merupakan kelompok pilihan media teknologi mutakhir.Media teknologi mutakhir sendiri dibedakan menjadi (1) media berbasis telekomunikasi, misalkan teleconference,kuliah jarak jauh, dan (2) media berbasis mikroprosesor, misalkan computer-assistted instruction,permainan komputer, sistem tutor intelejen, interaktif,hypermedia, dan compact (video) disc.</p>
                                                <!--  <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
                                                <a href="/asisten2" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                 <!-- <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
@@ -366,10 +370,7 @@
                                                 <h2 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Divisi</h2>
                                                 <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Geographic Information System</h2>
                                                 <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Merupakan Divisi yang bergerak dalam bidang Geographic Information System</span>
-                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
-                                                It will fit perfectly for Startup, Web App or any type of Web Services.
-                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
-                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Sistem Informasi Geografis adalah sistem informasi khusus yang mengelola data yang memiliki informasi spasial (bereferensi keruangan). Atau dalam arti yang lebih sempit, adalah sistem komputer yang memiliki kemampuan untuk membangun, menyimpan, mengelola dan menampilkan informasi berefrensi geografis, misalnya data yang diidentifikasi menurut lokasinya, dalam sebuah database. Para praktisi juga memasukkan orang yang membangun dan mengoperasikannya dan data sebagai bagian dari sistem ini.</p>
                                                 <!-- <a href="/asisten" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a> -->
                                                 <a href="/asisten2" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Lihat Calon Asisten</a>
                                                <!--  <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
@@ -391,7 +392,7 @@
                                     </div>
                                 </div>
 
-                                
+
 
 
 
@@ -400,7 +401,7 @@
                     </div> <!-- End: .row -->
                 </div>
             </div>
-        </section>  
+        </section>
 
 
          <!-- modal Web -->
@@ -435,8 +436,8 @@
                                     <h4>John Mike</h4>
                                     <span>CEO, Author.Inc</span>
                                 </div>
-                            </div>                    
-                            
+                            </div>
+
                             <div class="each-client-item">
                                 <div class="mh-client-item dark-bg black-shadow-1">
                                     <img src="assets/images/c-1.png" alt="" class="img-fluid">
@@ -466,8 +467,8 @@
                                     <h4>John Mike</h4>
                                     <span>CEO, Author.Inc</span>
                                 </div>
-                            </div>                    
-                            
+                            </div>
+
                             <div class="each-client-item">
                                 <div class="mh-client-item dark-bg black-shadow-1">
                                     <img src="assets/images/c-1.png" alt="" class="img-fluid">
@@ -500,8 +501,8 @@
                                 </div>
                             </div>
                         </div> -->
-                         
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -513,7 +514,7 @@
                             <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
                             <div class="title">Endless Rocket 2D</div>
                           </div>
-                        </div>    
+                        </div>
              -->
 
 
@@ -527,16 +528,16 @@
 
                               </iframe>
                         </div>
-                         
-                        
+
+
                     </div>
                 </div>
             </div>
 
-          
-               
- 
-            
+
+
+
+
             <!-- modal game -->
             <div class="mh-portfolio-modal" id="game">
                 <div class="container">
@@ -551,11 +552,11 @@
                             <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
                             <div class="title">Endless Rocket 2D</div>
                           </div>
-                        </div>    
+                        </div>
 
                         </div>
-                         
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -569,10 +570,10 @@
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-12">
                             <h2>Game </h2>
-                            <p> ini dummy </p>       
+                            <p> ini dummy </p>
                         </div>
-                         
-                        
+
+
                     </div>
                 </div>
             </div> -->
@@ -582,15 +583,15 @@
                     <div class="row mh-portfolio-modal-inner">
                         <div class="col-sm-5">
                             <h2>Wrap - A campanion plugin</h2>
-                            <p>Wrap is a clean and elegant Multipurpose Landing Page Template. 
+                            <p>Wrap is a clean and elegant Multipurpose Landing Page Template.
                             It will fit perfectly for Startup, Web App or any type of Web Services.
-                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
-                            All variations are organized separately so you can use / customize the template very easily.</p>       
-                            
-                            <p>It is a clean and elegant Multipurpose Landing Page Template. 
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                            All variations are organized separately so you can use / customize the template very easily.</p>
+
+                            <p>It is a clean and elegant Multipurpose Landing Page Template.
                             It will fit perfectly for Startup, Web App or any type of Web Services.
-                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
-                            All variations are organized separately so you can use / customize the template very easily.</p>      
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                            All variations are organized separately so you can use / customize the template very easily.</p>
                             <div class="mh-about-tag">
                                 <ul>
                                     <li><span>php</span></li>
@@ -607,9 +608,9 @@
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
                                 <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
-                                <p>All variations are organized separately so you can use / customize the template very easily.</p>    
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>
                                 <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
-                                <p>All variations are organized separately so you can use / customize the template very easily.</p>     
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>
                             </div>
                         </div>
                     </div>
@@ -666,7 +667,7 @@
                         <div class="each-quates col-sm-12 col-md-6">
                             <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Animasi</h3>
                             <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Berikut Animasi Yang telah dibuat oleh calon asisten dari divisi Interactive Video(IV)</p>
-                            
+
                             <a class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" data-fancybox data-src="#animasi">Lihat</a>
 
                         </div>
@@ -675,10 +676,10 @@
             </div>
         </section>
 
-  
-        
-  
- 
+
+
+
+
         <!--
         ===================
            FOOTER 1
@@ -692,7 +693,7 @@
                             <h3>Hubungi Kami</h3>
                         </div>
                         <div class="col-sm-12 mh-footer-address">
-                        
+
                         </div>
                         <div class="col-md-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
@@ -720,10 +721,10 @@
                         <div class="col-md-8 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <div class="mh-map">
                                 <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1dyuQqm8RcoXh-Hio4KsG7tnrIMFYo9UB" ></iframe> -->
-                                
+
                                 <div id="right-panel"></div>
                                   <div style="position:relative;padding-top:56.25%;" id="map">
-                                      
+
 
                                   </div>
                                 </div>
@@ -749,9 +750,9 @@
                     </div>
                 </div>
             </div>
-        </footer>     
-     
-        
-    
-       
+        </footer>
+
+
+
+
         @endsection
