@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 10, 2018 at 04:07 PM
--- Server version: 10.1.9-MariaDB
--- PHP Version: 7.0.1
+-- Generation Time: 25 Apr 2019 pada 14.04
+-- Versi Server: 10.1.13-MariaDB
+-- PHP Version: 5.6.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `aksesoris`
+-- Struktur dari tabel `aksesoris`
 --
 
 CREATE TABLE `aksesoris` (
@@ -41,7 +41,7 @@ CREATE TABLE `aksesoris` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `aksesoris`
+-- Dumping data untuk tabel `aksesoris`
 --
 
 INSERT INTO `aksesoris` (`id`, `jenis`, `tipe`, `deskripsi`, `fitur`, `harga_sewa`, `gambar`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
@@ -55,7 +55,38 @@ INSERT INTO `aksesoris` (`id`, `jenis`, `tipe`, `deskripsi`, `fitur`, `harga_sew
 -- --------------------------------------------------------
 
 --
--- Table structure for table `contacts`
+-- Struktur dari tabel `asistens`
+--
+
+CREATE TABLE `asistens` (
+  `id_user` int(11) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `panggilan` varchar(100) NOT NULL,
+  `jurusan` varchar(100) NOT NULL,
+  `asal` varchar(100) NOT NULL,
+  `divisi` varchar(100) NOT NULL,
+  `gambar` varchar(100) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `asistens`
+--
+
+INSERT INTO `asistens` (`id_user`, `nama`, `panggilan`, `jurusan`, `asal`, `divisi`, `gambar`, `created_at`, `updated_at`) VALUES
+(1, 'M. Rahadyan Dika Adji', 'dika', 'mbti', 'malang', 'web', '1556181402_Dika.jpg', '2019-04-25 01:36:42', '2019-04-25 01:36:42'),
+(2, 'Bayu Muhammad Iqbal', 'Iqbal', 'Informatika', 'Boyolali', 'web', '1556181826_Bayu.jpg', '2019-04-25 01:43:46', '2019-04-25 01:43:46'),
+(4, 'Rafli Noveri Alfariji', 'Rafli', 'Teknologi Informasi', 'bandung', 'gametech', '1556184670_Fajar.jpg', '2019-04-25 09:31:10', '2019-04-25 02:31:10'),
+(5, 'Muhammad Kirana Baiduri', 'Kiran', 'Teknik Telekomunikasi', 'Banjarbaru', 'voip', '1556184876_Kiran.jpg', '2019-04-25 02:34:36', '2019-04-25 02:34:36'),
+(6, 'Muhammad Adnan Pramudito', 'Adnan', 'Teknik Telekomunikasi', 'Sleman', 'gis', '1556184924_Adnan.jpg', '2019-04-25 02:35:24', '2019-04-25 02:35:24'),
+(7, 'Dwi Sulistyowati', 'Sulis', 'Teknik Telekomunikasi', 'Boyolali', 'ids', '1556184965_Sulis.jpg', '2019-04-25 02:36:05', '2019-04-25 02:36:05'),
+(8, 'Dhea Dearly', 'Dhea', 'Teknik Telekomunikasi', 'pekanbaru', 'iv', '1556185004_Dhea.jpg', '2019-04-25 02:36:44', '2019-04-25 02:36:44');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `contacts`
 --
 
 CREATE TABLE `contacts` (
@@ -68,7 +99,7 @@ CREATE TABLE `contacts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `contacts`
+-- Dumping data untuk tabel `contacts`
 --
 
 INSERT INTO `contacts` (`id_masukkan`, `name`, `email`, `message`, `created_at`, `updated_at`) VALUES
@@ -80,7 +111,7 @@ INSERT INTO `contacts` (`id_masukkan`, `name`, `email`, `message`, `created_at`,
 -- --------------------------------------------------------
 
 --
--- Table structure for table `daftar_admins`
+-- Struktur dari tabel `daftar_admins`
 --
 
 CREATE TABLE `daftar_admins` (
@@ -97,19 +128,16 @@ CREATE TABLE `daftar_admins` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `daftar_admins`
+-- Dumping data untuk tabel `daftar_admins`
 --
 
 INSERT INTO `daftar_admins` (`id`, `name`, `email`, `password`, `tel`, `level`, `gambar`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Dika Adji', 'r.dikaadji@gmail.com', '$2y$10$n/vlG0j7ZCR68hJZBrbdi.FHsnCXpFXc.pDxyu4obrdY8uJvJpK22', '082265565378', 'admin', 'admin_dika.jpg', 'J0sR7YhrMByFkDMC23qTxST2Vk9EAhcGWe6aHU9iEZMeaHX3lVpHX2RnvKNM', '2018-01-10 17:10:29', '2018-01-10 17:10:29'),
-(2, 'Muhammad Rizky', 'rizky.ajie30@gmail.com', '$2y$10$V269zOYE82GDOWjKvXo.WeHuO8pxIo9UECDktRZRVC2ToVZ/L0wIe', '089653580794', 'admin', 'admin_rizky.jpg', '69RFIACMVJYw98uECLErSogBz1Oq1EENDaNyUXS6y1WUBISDTn0Z9q9Cv7RV', '2018-01-10 17:15:52', '2018-01-10 17:15:52'),
-(3, 'monica', 'monica.brill@gmail.com', '$2y$10$ZuUbQPHpcY46rdvlN6SVAOYlim6PJ0D00GbVJbybG4xIuKCLK2TgS', '081453739081', 'admin', 'admin_monica.jpg', '1c0asMNSYwovktH8bV6XNuBHv99E9vkyrGnw8gOiZII5ZZ4G12sSoFqZt07l', '2018-01-10 17:19:07', '2018-01-10 17:19:07'),
-(6, 'toli', 'tolicoki@gmail.com', '$2y$10$f8o3R00xU7ZLWZ9BcNSf.uxPrzFonC07H5aUfOXJ6B5y8fbC0NvJq', '0202020', 'operator', '1516659051_uchiha_sasuke.ico', 'F9ZqylKTXIxckkyStxfglTuTxzB7beO5RHmod3aHKp5TlzLBaZbykxyTKkD7', '2018-01-22 15:10:51', '2018-01-22 15:10:51');
+(1, 'Dika Adji', 'r.dikaadji@gmail.com', '$2y$10$n/vlG0j7ZCR68hJZBrbdi.FHsnCXpFXc.pDxyu4obrdY8uJvJpK22', '082265565378', 'admin', 'admin_dika.jpg', 'C1bpwz3Fr38TyheLk7sOsjvQqswtwm8d1cLre7qbTsrO4a6nSANdHtpQTOpi', '2018-01-10 17:10:29', '2018-01-10 17:10:29');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jenis`
+-- Struktur dari tabel `jenis`
 --
 
 CREATE TABLE `jenis` (
@@ -120,7 +148,7 @@ CREATE TABLE `jenis` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `jenis`
+-- Dumping data untuk tabel `jenis`
 --
 
 INSERT INTO `jenis` (`id_jenis`, `jenis`, `created_at`, `updated_at`) VALUES
@@ -134,7 +162,7 @@ INSERT INTO `jenis` (`id_jenis`, `jenis`, `created_at`, `updated_at`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `kameras`
+-- Struktur dari tabel `kameras`
 --
 
 CREATE TABLE `kameras` (
@@ -151,11 +179,11 @@ CREATE TABLE `kameras` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `kameras`
+-- Dumping data untuk tabel `kameras`
 --
 
 INSERT INTO `kameras` (`id_kamera`, `merk`, `tipe`, `deskripsi`, `fitur`, `harga_sewa`, `gambar`, `status`, `created_at`, `updated_at`) VALUES
-(7, 'canon', 'eos5d', 'EOS 5D is a good Camera', '20.1 MP,  Auto Stabilizzer, Fast Shutter, Fast record', 'Rp : 200.000  /  Hari', '1515659556_eos 5d.jpg', 'kosong', '2018-01-11 01:32:36', '2018-01-15 17:09:59'),
+(7, 'canon', 'eos5d222', 'EOS 5D is a good Camera', '20.1 MP,  Auto Stabilizzer, Fast Shutter, Fast record', 'Rp : 200.000  /  Hari', '1515659556_eos 5d.jpg', 'kosong', '2019-04-25 09:27:21', '2019-04-25 02:27:21'),
 (8, 'nikon', 'D5200 Kit', 'Impressive 24.1MP with great image quality and can connect the optional WU-1a Wireless Mobile Adapte', 'DSLR - dengan Lens, 24.1MP; ISO 100 - 6400; 30-1/4000; ISO 100 - 6400', 'Rp : 300.000 /  Hari', '1515676335_nikond5200.jpg', 'tersedia', '2018-01-11 06:12:15', '2018-01-15 16:53:34'),
 (9, 'sony', '?7 ILCE-7K Kit', 'Kesempurnaan pada desain dan berat yang ringan membuat kamera full frame ini popular di pasar.', 'MirrorLess; 24.30 MP; ISO 100-25600; Ringan, Body kompak', 'Rp : 400.000 /hari', '1515678338_sonya7.jpg', 'tersedia', '2018-01-11 06:45:38', '2018-01-15 06:56:21'),
 (11, 'goPro', 'HERO6 Black', 'GoPro HERO6 berlayar 2" dibenami GP1 chip mengahsilkan 2x kualitas gambar lebih baik daripada HERO5,', '2" display; Slow-Mo Pro; Water Resist Up to 10m; Voice Command; Image Stabilization', 'Rp : 500.000/hari', '1515678915_gopro6.jpg', 'tersedia', '2018-01-11 06:55:15', '2018-01-15 06:56:11'),
@@ -169,7 +197,7 @@ INSERT INTO `kameras` (`id_kamera`, `merk`, `tipe`, `deskripsi`, `fitur`, `harga
 -- --------------------------------------------------------
 
 --
--- Table structure for table `lensas`
+-- Struktur dari tabel `lensas`
 --
 
 CREATE TABLE `lensas` (
@@ -186,7 +214,7 @@ CREATE TABLE `lensas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `lensas`
+-- Dumping data untuk tabel `lensas`
 --
 
 INSERT INTO `lensas` (`id_lensa`, `merk`, `tipe`, `deskripsi`, `fitur`, `harga_sewa`, `gambar`, `status`, `created_at`, `updated_at`) VALUES
@@ -197,7 +225,7 @@ INSERT INTO `lensas` (`id_lensa`, `merk`, `tipe`, `deskripsi`, `fitur`, `harga_s
 -- --------------------------------------------------------
 
 --
--- Table structure for table `merk`
+-- Struktur dari tabel `merk`
 --
 
 CREATE TABLE `merk` (
@@ -208,7 +236,7 @@ CREATE TABLE `merk` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `merk`
+-- Dumping data untuk tabel `merk`
 --
 
 INSERT INTO `merk` (`id_merk`, `merk`, `created_at`, `updated_at`) VALUES
@@ -227,7 +255,7 @@ INSERT INTO `merk` (`id_merk`, `merk`, `created_at`, `updated_at`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `migrations`
+-- Struktur dari tabel `migrations`
 --
 
 CREATE TABLE `migrations` (
@@ -237,7 +265,7 @@ CREATE TABLE `migrations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `migrations`
+-- Dumping data untuk tabel `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
@@ -252,7 +280,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wishlist`
+-- Struktur dari tabel `wishlist`
 --
 
 CREATE TABLE `wishlist` (
@@ -267,7 +295,7 @@ CREATE TABLE `wishlist` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wishlist`
+-- Dumping data untuk tabel `wishlist`
 --
 
 INSERT INTO `wishlist` (`id_wishlist`, `nama`, `email`, `telepon`, `request`, `deskripsi`, `created_at`, `updated_at`) VALUES
@@ -291,6 +319,12 @@ INSERT INTO `wishlist` (`id_wishlist`, `nama`, `email`, `telepon`, `request`, `d
 ALTER TABLE `aksesoris`
   ADD PRIMARY KEY (`id`),
   ADD KEY `jenis` (`jenis`);
+
+--
+-- Indexes for table `asistens`
+--
+ALTER TABLE `asistens`
+  ADD PRIMARY KEY (`id_user`);
 
 --
 -- Indexes for table `contacts`
@@ -357,6 +391,11 @@ ALTER TABLE `wishlist`
 ALTER TABLE `aksesoris`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
+-- AUTO_INCREMENT for table `asistens`
+--
+ALTER TABLE `asistens`
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+--
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
@@ -365,7 +404,7 @@ ALTER TABLE `contacts`
 -- AUTO_INCREMENT for table `daftar_admins`
 --
 ALTER TABLE `daftar_admins`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `jenis`
 --
@@ -397,23 +436,23 @@ ALTER TABLE `migrations`
 ALTER TABLE `wishlist`
   MODIFY `id_wishlist` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `aksesoris`
+-- Ketidakleluasaan untuk tabel `aksesoris`
 --
 ALTER TABLE `aksesoris`
   ADD CONSTRAINT `aksesoris_ibfk_1` FOREIGN KEY (`jenis`) REFERENCES `jenis` (`jenis`);
 
 --
--- Constraints for table `kameras`
+-- Ketidakleluasaan untuk tabel `kameras`
 --
 ALTER TABLE `kameras`
   ADD CONSTRAINT `kameras_ibfk_1` FOREIGN KEY (`merk`) REFERENCES `merk` (`merk`);
 
 --
--- Constraints for table `lensas`
+-- Ketidakleluasaan untuk tabel `lensas`
 --
 ALTER TABLE `lensas`
   ADD CONSTRAINT `lensas_ibfk_1` FOREIGN KEY (`merk`) REFERENCES `merk` (`merk`);
