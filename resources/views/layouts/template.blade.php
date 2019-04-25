@@ -52,6 +52,10 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Endless Rocket 2D.json", {onProgress: UnityProgress});
     </script>
+
+    <style type="text/css">
+      
+    </style>
         
     </head>
     <body class="dark-vertion black-bg">
@@ -127,6 +131,9 @@
       <!-- INI ENDING TEMPAT ISINYA -->  
       
 
+
+      </body>
+
     <!--
     ==============
     * JS Files *
@@ -165,16 +172,100 @@
     <script src="/source/assets/js/custom-scripts.js"></script>
 
 
+    <div id="floating-panel">
+    <b>Start: </b>
+    <select id="start">
+      <option value='-6.96989, 107.62727'>Kantin Asrama Putra Telkom University</option>
+      <option value='-6.97006, 107.62706'>T-Mart 3</option>
+      <option value='-6.97108, 107.62838'>Asrama Putra Telkom University Gedung LAAG 1</option>
+      <option value='-6.97046, 107.63031'>Bandung techno Park</option>
+      <option value='-6.97159, 107.62946'>Parkir Sepeda Motor Telkom University</option>
+      <option value='-6.97163, 107.63104'>Telkom University Convention Hall</option>
+      <option value='-6.97204, 107.6312'>Telkom University Fakultas Industri Kreatif</option>
+      <option value='-6.97175, 107.63242'>Perpustakaan Universitas Telkom (Telkom University Open Library)</option>
+      <option value='-6.9722, 107.63293'>Fakultas Komunikasi dan Bisnis Universitas Telkom</option>
+      <option value='-6.97236, 107.62968'>Parking Place Tokong Nanas</option>
+      <option value='-6.97311, 107.62886'>Asrama Puteri Telkom University</option>
+      <option value='-6.97289, 107.62975'>Gedung Kuliah Umum Tokong Nanas Universitas Telkom</option>
+      <option value='-6.97306, 107.63151'>Danau Telkom University</option>
+      <option value='-6.97318, 107.63262'>Fakultas Ilmu Terapan Universitas Telkom</option>
+      <option value='-6.97451, 107.62889'>TMart Asrama Putri</option>
+      <option value='-6.97467, 107.62887'>Parking Place T-Mart</option>
+      <option value='-6.9749, 107.62992'>Gedung K</option>
+      <option value='-6.97402, 107.63052'>Telkom University</option>
+      <option value='-6.97445, 107.63098'>Gedung A</option>
+      <option value='-6.97489, 107.63108'>Gedung B</option>
+      <option value='-6.97556, 107.62959'>Fakultas Teknik Elektro - Telkom University</option>
+      <option value='-6.97592, 107.631'>Gedung G Pascasarjana Telkom University</option>
+      <option value='-6.97569, 107.63212'>Masjid Syamsul 'Ulum, Telkom University</option>
+      <option value='-6.97649, 107.63031'>Gedung Serba Guna Telkom University</option>
+      <option value='-6.97633, 107.63232'>Student Hall</option>
+      <option value='-6.97634, 107.6307'>Fakultas Teknik Informatika - Telkom University</option>
+      <option value='-6.97746, 107.62938'>Student Center</option>
+      <option value='-6.97742, 107.62982'>Lapangan Tennis Telkom University</option>
+      <option value='-6.97746, 107.63095'>Kantin Fakultas Teknik</option>
+      <option value='-6.97731, 107.63104'>Student Mart</option>
+    </select>
+    <br>
+    <b>End: </b>
+    <select id="end">
+      <option value='-6.96989, 107.62727'>Kantin Asrama Putra Telkom University</option>
+      <option value='-6.97006, 107.62706'>T-Mart 3</option>
+      <option value='-6.97108, 107.62838'>Asrama Putra Telkom University Gedung LAAG 1</option>
+      <option value='-6.97046, 107.63031'>Bandung techno Park</option>
+      <option value='-6.97159, 107.62946'>Parkir Sepeda Motor Telkom University</option>
+      <option value='-6.97163, 107.63104'>Telkom University Convention Hall</option>
+      <option value='-6.97204, 107.6312'>Telkom University Fakultas Industri Kreatif</option>
+      <option value='-6.97175, 107.63242'>Perpustakaan Universitas Telkom (Telkom University Open Library)</option>
+      <option value='-6.9722, 107.63293'>Fakultas Komunikasi dan Bisnis Universitas Telkom</option>
+      <option value='-6.97236, 107.62968'>Parking Place Tokong Nanas</option>
+      <option value='-6.97311, 107.62886'>Asrama Puteri Telkom University</option>
+      <option value='-6.97289, 107.62975'>Gedung Kuliah Umum Tokong Nanas Universitas Telkom</option>
+      <option value='-6.97306, 107.63151'>Danau Telkom University</option>
+      <option value='-6.97318, 107.63262'>Fakultas Ilmu Terapan Universitas Telkom</option>
+      <option value='-6.97451, 107.62889'>TMart Asrama Putri</option>
+      <option value='-6.97467, 107.62887'>Parking Place T-Mart</option>
+      <option value='-6.9749, 107.62992'>Gedung K</option>
+      <option value='-6.97402, 107.63052'>Telkom University</option>
+      <option value='-6.97445, 107.63098'>Gedung A</option>
+      <option value='-6.97489, 107.63108'>Gedung B</option>
+      <option value='-6.97556, 107.62959'>Fakultas Teknik Elektro - Telkom University</option>
+      <option value='-6.97592, 107.631'>Gedung G Pascasarjana Telkom University</option>
+      <option value='-6.97569, 107.63212'>Masjid Syamsul 'Ulum, Telkom University</option>
+      <option value='-6.97649, 107.63031'>Gedung Serba Guna Telkom University</option>
+      <option value='-6.97633, 107.63232'>Student Hall</option>
+      <option value='-6.97634, 107.6307'>Fakultas Teknik Informatika - Telkom University</option>
+      <option value='-6.97746, 107.62938'>Student Center</option>
+      <option value='-6.97742, 107.62982'>Lapangan Tennis Telkom University</option>
+      <option value='-6.97746, 107.63095'>Kantin Fakultas Teknik</option>
+      <option value='-6.97731, 107.63104'>Student Mart</option>
+    </select>
+    <b>Mode of Travel: </b>
+    <select id="mode">
+      <option value="DRIVING">Driving</option>
+      <option value="WALKING">Walking</option>
+      <option value="BICYCLING">Bicycling</option>
+      <option value="TRANSIT">Transit</option>
+    </select>
+    </div>
+    <!-- <div id="right-panel"></div>
+    <div id="map"></div> -->
     <script>
 
       // This example creates a simple polygon representing the Bermuda Triangle.
 
       function initMap() {
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+        var directionsService = new google.maps.DirectionsService;
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16.06,
+          zoom: 16.53,
           center: {lat: -6.97395, lng: 107.631057},
           mapTypeId: 'terrain'
         });
+        directionsDisplay.setMap(map);
+        directionsDisplay.setPanel(document.getElementById('right-panel'));
+
+
 
         // Define the LatLng coordinates for the polygon's path.
         var telkom = [
@@ -220,27 +311,27 @@
     {lat: -6.9694962, lng: 107.6275577},
     {lat: -6.9700979, lng: 107.6268925}
         ];
-    var gedungA =  [
-    {lat: -6.974185, lng: 107.630696},
-    {lat: -6.974611, lng: 107.6306531},
-    {lat: -6.974611, lng: 107.6313612},
-    {lat: -6.9742063, lng: 107.6313612},
-    {lat: -6.974185, lng: 107.630696}
-        ];
-    var gedungB = [
-    {lat: -6.9747601, lng: 107.630696},
-    {lat: -6.9750796, lng: 107.630696},
-    {lat: -6.9750583, lng: 107.6313612},
-    {lat: -6.9747601, lng: 107.6313397},
-    {lat: -6.9747601, lng: 107.630696}
-        ];
-    var kancow = [
-    {lat: -6.9697926, lng: 107.6272892 },
+  var gedungA =  [
+  {lat: -6.974185, lng: 107.630696},
+  {lat: -6.974611, lng: 107.6306531},
+  {lat: -6.974611, lng: 107.6313612},
+  {lat: -6.9742063, lng: 107.6313612},
+  {lat: -6.974185, lng: 107.630696}
+    ];
+  var gedungB = [
+  {lat: -6.9747601, lng: 107.630696},
+  {lat: -6.9750796, lng: 107.630696},
+  {lat: -6.9750583, lng: 107.6313612},
+  {lat: -6.9747601, lng: 107.6313397},
+  {lat: -6.9747601, lng: 107.630696}
+    ];
+  var kancow = [
+  {lat: -6.9697926, lng: 107.6272892 },
     {lat: -6.9699297, lng: 107.6271417},
     {lat: -6.9700069, lng: 107.6272101},
     {lat: -6.9698685, lng: 107.6273617},
     {lat: -6.9697926, lng: 107.6272892}
-        ];
+    ];
   var TMart3 = [
   {lat: -6.9700955, lng: 107.6269673},
   {lat: -6.9701568, lng: 107.6270209},
@@ -568,7 +659,7 @@ var DormHall = [
         new google.maps.Polygon({
           map: map,
           paths: telkom,
-          strokeColor: '#FF0000',
+          strokeColor: '#DEB887',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#DEB887',
@@ -589,11 +680,11 @@ var DormHall = [
           draggable: false,
           geodesic: true
         });
-        
-        new google.maps.Polygon({
+    
+    new google.maps.Polygon({
           map: map,
           paths: gedungB,
-          strokeColor: '#FF0000',
+          strokeColor: '#8A2BE2',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8A2BE2',
@@ -601,11 +692,11 @@ var DormHall = [
           draggable: false,
           geodesic: true
         });
-        
-        new google.maps.Polygon({
+    
+    new google.maps.Polygon({
           map: map,
           paths: kancow,
-          strokeColor: '#FF0000',
+          strokeColor: '#6495ED',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#6495ED',
@@ -613,11 +704,11 @@ var DormHall = [
           draggable: false,
           geodesic: true
         });
-        
-        new google.maps.Polygon({
+    
+    new google.maps.Polygon({
           map: map,
           paths: TMart3,
-          strokeColor: '#FF0000',
+          strokeColor: '#FF3300',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#FF3300',
@@ -628,7 +719,7 @@ var DormHall = [
     new google.maps.Polygon({
           map: map,
           paths: Asrama,
-          strokeColor: '#FF0000',
+          strokeColor: '#000099',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#000099',
@@ -639,7 +730,7 @@ var DormHall = [
     new google.maps.Polygon({
           map: map,
           paths: DormHall,
-          strokeColor: '#FF0000',
+          strokeColor: '#33FF33',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#33FF33',
@@ -650,7 +741,7 @@ var DormHall = [
 new google.maps.Polygon({
           map: map,
           paths: FIK,
-          strokeColor: '#FF0000',
+          strokeColor: '#F1C40F',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#F1C40F',
@@ -661,7 +752,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: TUCH,
-          strokeColor: '#FF0000',
+          strokeColor: '#900',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#900',
@@ -672,7 +763,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: FEBOpenLibraryFKB,
-          strokeColor: '#FF0000',
+          strokeColor: '#2F4F4F',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#2F4F4F',
@@ -683,7 +774,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: FIT,
-          strokeColor: '#FF0000',
+          strokeColor: '#FFFF00',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#FFFF00',
@@ -694,7 +785,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: Asrama2,
-          strokeColor: '#FF0000',
+          strokeColor: '#000099',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#000099',
@@ -705,7 +796,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: GedungL,
-          strokeColor: '#FF0000',
+          strokeColor: '#4682b4',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#4682b4',
@@ -716,7 +807,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: GKU,
-          strokeColor: '#FF0000',
+          strokeColor: '#7fff04',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#7fff04',
@@ -727,7 +818,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: Rektorat,
-          strokeColor: '#FF0000',
+          strokeColor: '#FF6A6A',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#FF6A6A',
@@ -738,7 +829,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: FTE,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B658B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '  #8B658B',
@@ -749,7 +840,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: FTE2,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B658B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '  #8B658B',
@@ -760,7 +851,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: FTE3,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B658B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '  #8B658B',
@@ -771,7 +862,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: GSG,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B4726',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8B4726',
@@ -782,7 +873,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: IF,
-          strokeColor: '#FF0000',
+          strokeColor: '#483D8B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#483D8B',
@@ -793,7 +884,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: IF2,
-          strokeColor: '#FF0000',
+          strokeColor: '#483D8B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#483D8B',
@@ -804,7 +895,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: IF3,
-          strokeColor: '#FF0000',
+          strokeColor: '#483D8B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#483D8B',
@@ -815,7 +906,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: FRI,
-          strokeColor: '#FF0000',
+          strokeColor: '#800080',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#800080',
@@ -826,7 +917,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: GdPascaSarjana,
-          strokeColor: '#FF0000',
+          strokeColor: '#EE7942',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#EE7942',
@@ -837,7 +928,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: MSU,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B6969',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8B6969',
@@ -848,7 +939,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: StudentCenter,
-          strokeColor: '#FF0000',
+          strokeColor: '#6B8E23',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#6B8E23',
@@ -859,7 +950,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: StudentMart,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B6914',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8B6914',
@@ -870,7 +961,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: KantinTeknik,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B658B',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8B658B',
@@ -881,7 +972,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: GedungK,
-          strokeColor: '#FF0000',
+          strokeColor: '#8b3a3a',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8b3a3a',
@@ -892,7 +983,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: polygon86,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B8989',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8B8989',
@@ -903,7 +994,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: SC,
-          strokeColor: '#FF0000',
+          strokeColor: '#8B795E',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#8B795E',
@@ -914,7 +1005,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: TMart4,
-          strokeColor: '#FF0000',
+          strokeColor: '#EE6363',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#EE6363',
@@ -925,7 +1016,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: BTT,
-          strokeColor: '#FF0000',
+          strokeColor: '#CD950C',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#CD950C',
@@ -936,7 +1027,7 @@ new google.maps.Polygon({
       new google.maps.Polygon({
           map: map,
           paths: DanauGalau,
-          strokeColor: '#FF0000',
+          strokeColor: '#00FFFF',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#00FFFF',
@@ -944,10 +1035,10 @@ new google.maps.Polygon({
           draggable: false,
           geodesic: true
         });
-      new google.maps.Polygon({
+    new google.maps.Polygon({
           map: map,
           paths: Danau,
-          strokeColor: '#FF0000',
+          strokeColor: '#00FFFF',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#00FFFF',
@@ -955,10 +1046,10 @@ new google.maps.Polygon({
           draggable: false,
           geodesic: true
         });
-         new google.maps.Polygon({
+     new google.maps.Polygon({
           map: map,
           paths: Danau2,
-          strokeColor: '#FF0000',
+          strokeColor: '#00FFFF',
           strokeOpacity: 0.8,
           strokeWeight: 2,
           fillColor: '#00FFFF',
@@ -966,379 +1057,379 @@ new google.maps.Polygon({
           draggable: false,
           geodesic: true
         });
-        // Array of Line
-        var garis35 = [
-        {lat: -6.9695359, lng: 107.6288268},
-        {lat: -6.9711364, lng: 107.6287495},
-        {lat: -6.9712292, lng: 107.6287839},
-        {lat: -6.9712825, lng: 107.6288697},
-        {lat: -6.9712931, lng: 107.6289555},
-        {lat: -6.9713011, lng: 107.628985},
-        {lat: -6.9718123, lng: 107.6289609},
-        {lat: -6.9718762, lng: 107.6289904},
-        {lat: -6.971972,  lng: 107.6290119},
-        {lat: -6.9721078, lng: 107.6290119},
-        {lat: -6.9726349, lng: 107.6290065},
-        {lat: -6.9727894, lng: 107.6291808},
-        {lat: -6.9739848, lng: 107.6291996},
-        {lat: -6.9740087, lng: 107.6291111},
-        {lat: -6.9740806, lng: 107.6290521},
-        {lat: -6.9742031, lng: 107.6290414},
-        {lat: -6.9767776, lng: 107.6290387},
-        {lat: -6.9768282, lng: 107.6290494},
-        {lat: -6.9769027, lng: 107.6290762},
-        {lat: -6.9770358, lng: 107.6291621},
-        {lat: -6.9770997, lng: 107.6292238},
-        {lat: -6.977145,  lng: 107.6293123},
-        {lat: -6.9771636, lng: 107.6293981},
-        {lat: -6.9771849, lng: 107.6311147},
-        {lat: -6.9771743, lng: 107.6312301},
-        {lat: -6.977137,  lng: 107.63134},
-        {lat: -6.9770278, lng: 107.631458},
-        {lat: -6.9768974, lng: 107.6315492},
-        {lat: -6.9768548, lng: 107.6315546},
-        {lat: -6.9752441, lng: 107.6316297},
-        {lat: -6.9740061, lng: 107.6316351},
-        {lat: -6.9739794, lng: 107.6326382}
-        ];
+    // Array of Line
+    var garis35 = [
+    {lat: -6.9695359, lng: 107.6288268},
+    {lat: -6.9711364, lng: 107.6287495},
+    {lat: -6.9712292, lng: 107.6287839},
+    {lat: -6.9712825, lng: 107.6288697},
+    {lat: -6.9712931, lng: 107.6289555},
+    {lat: -6.9713011, lng: 107.628985},
+    {lat: -6.9718123, lng: 107.6289609},
+    {lat: -6.9718762, lng: 107.6289904},
+    {lat: -6.971972,  lng: 107.6290119},
+    {lat: -6.9721078, lng: 107.6290119},
+    {lat: -6.9726349, lng: 107.6290065},
+    {lat: -6.9727894, lng: 107.6291808},
+    {lat: -6.9739848, lng: 107.6291996},
+    {lat: -6.9740087, lng: 107.6291111},
+    {lat: -6.9740806, lng: 107.6290521},
+    {lat: -6.9742031, lng: 107.6290414},
+    {lat: -6.9767776, lng: 107.6290387},
+    {lat: -6.9768282, lng: 107.6290494},
+    {lat: -6.9769027, lng: 107.6290762},
+    {lat: -6.9770358, lng: 107.6291621},
+    {lat: -6.9770997, lng: 107.6292238},
+    {lat: -6.977145,  lng: 107.6293123},
+    {lat: -6.9771636, lng: 107.6293981},
+    {lat: -6.9771849, lng: 107.6311147},
+    {lat: -6.9771743, lng: 107.6312301},
+    {lat: -6.977137,  lng: 107.63134},
+    {lat: -6.9770278, lng: 107.631458},
+    {lat: -6.9768974, lng: 107.6315492},
+    {lat: -6.9768548, lng: 107.6315546},
+    {lat: -6.9752441, lng: 107.6316297},
+    {lat: -6.9740061, lng: 107.6316351},
+    {lat: -6.9739794, lng: 107.6326382}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis35,
+    var flightPath = new google.maps.Polyline({
+    path: garis35,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        
-        var garis36 = [
-        {lat: -6.9699578, lng: 107.6288027},
-        {lat: -6.9699072, lng: 107.6276172}
-        ];
-        
-        var flightPath = new google.maps.Polyline({
+    flightPath.setMap(map);
+    
+    
+    var garis36 = [
+    {lat: -6.9699578, lng: 107.6288027},
+    {lat: -6.9699072, lng: 107.6276172}
+    ];
+    
+    var flightPath = new google.maps.Polyline({
           path: garis36,
           geodesic: true,
-          strokeColor: '#000000',
+          strokeColor: '#FFFFFF',
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
 
         flightPath.setMap(map);
-        
-        var garis37 = [
-        {lat: -6.9702786, lng: 107.6287893},
-        {lat: -6.970204,  lng: 107.6275984},
-        {lat: -6.9702094, lng: 107.6270003}
-        ];
-        
-        var flightPath = new google.maps.Polyline({
+    
+    var garis37 = [
+    {lat: -6.9702786, lng: 107.6287893},
+    {lat: -6.970204,  lng: 107.6275984},
+    {lat: -6.9702094, lng: 107.6270003}
+    ];
+    
+    var flightPath = new google.maps.Polyline({
           path: garis37,
           geodesic: true,
-          strokeColor: '#000000',
+          strokeColor: '#FFFFFF',
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis38 = [
-        {lat: -6.9706247, lng: 107.6287705},
-        {lat: -6.9705395, lng: 107.6275796},
-        {lat: -6.9705395, lng: 107.6269922}
-        ];
-        
-        var flightPath = new google.maps.Polyline({
+    flightPath.setMap(map);
+    
+    var garis38 = [
+    {lat: -6.9706247, lng: 107.6287705},
+    {lat: -6.9705395, lng: 107.6275796},
+    {lat: -6.9705395, lng: 107.6269922}
+    ];
+    
+    var flightPath = new google.maps.Polyline({
           path: garis38,
           geodesic: true,
-          strokeColor: '#000000',
+          strokeColor: '#FFFFFF',
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis39 = [
-        {lat: -6.9708936, lng: 107.6287598},
-        {lat: -6.9708324, lng: 107.6275609},
-        {lat: -6.970835, lng: 107.6269869}
-        ];
-        
-        var flightPath = new google.maps.Polyline({
+    flightPath.setMap(map);
+    
+    var garis39 = [
+    {lat: -6.9708936, lng: 107.6287598},
+    {lat: -6.9708324, lng: 107.6275609},
+    {lat: -6.970835, lng: 107.6269869}
+    ];
+    
+    var flightPath = new google.maps.Polyline({
           path: garis39,
           geodesic: true,
-          strokeColor: '#000000',
+          strokeColor: '#FFFFFF',
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis40 = [
-        {lat: -6.9711758, lng: 107.6287598},
-        {lat: -6.9711093, lng: 107.6269681},
-        {lat: -6.970835, lng: 107.6269869},
-        {lat: -6.9705395, lng: 107.6269922},
-        {lat: -6.9702094, lng: 107.6270003}
-        ];
+    flightPath.setMap(map);
+    
+    var garis40 = [
+    {lat: -6.9711758, lng: 107.6287598},
+    {lat: -6.9711093, lng: 107.6269681},
+    {lat: -6.970835, lng: 107.6269869},
+    {lat: -6.9705395, lng: 107.6269922},
+    {lat: -6.9702094, lng: 107.6270003}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis40,
+    var flightPath = new google.maps.Polyline({
+    path: garis40,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis41 = [
-        {lat: -6.9711306, lng: 107.6275314},
-        {lat: -6.9708324, lng: 107.6275609},
-        {lat: -6.9705395, lng: 107.6275796},
-        {lat: -6.970204, lng: 107.6275984},
-        {lat: -6.9699072, lng: 107.6276172},
-        {lat: -6.9696503, lng: 107.6276279},
-        {lat: -6.9696609, lng: 107.6281858},
-        {lat: -6.9699272, lng: 107.6281831},
-        {lat: -6.9702413,  lng: 107.6281778},
-        {lat: -6.9705741, lng: 107.628167},
-        {lat: -6.970859, lng: 107.6281617},
-        {lat: -6.9711519, lng: 107.628151}
-        ];
+    flightPath.setMap(map);
+    
+    var garis41 = [
+    {lat: -6.9711306, lng: 107.6275314},
+    {lat: -6.9708324, lng: 107.6275609},
+    {lat: -6.9705395, lng: 107.6275796},
+    {lat: -6.970204, lng: 107.6275984},
+    {lat: -6.9699072, lng: 107.6276172},
+    {lat: -6.9696503, lng: 107.6276279},
+    {lat: -6.9696609, lng: 107.6281858},
+    {lat: -6.9699272, lng: 107.6281831},
+    {lat: -6.9702413,  lng: 107.6281778},
+    {lat: -6.9705741, lng: 107.628167},
+    {lat: -6.970859, lng: 107.6281617},
+    {lat: -6.9711519, lng: 107.628151}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis41,
+    var flightPath = new google.maps.Polyline({
+    path: garis41,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis42 = [
-        {lat: -6.9725138, lng: 107.6283712},
-        {lat: -6.9740048, lng: 107.6283819},
-        {lat: -6.9741166, lng: 107.6283283},
-        {lat: -6.9742391, lng: 107.6282317},
-        {lat: -6.9743136, lng: 107.6281566},
-        {lat: -6.9750324, lng: 107.6288057},
-        {lat: -6.9752082, lng: 107.629031}
-        ];
+    flightPath.setMap(map);
+    
+    var garis42 = [
+    {lat: -6.9725138, lng: 107.6283712},
+    {lat: -6.9740048, lng: 107.6283819},
+    {lat: -6.9741166, lng: 107.6283283},
+    {lat: -6.9742391, lng: 107.6282317},
+    {lat: -6.9743136, lng: 107.6281566},
+    {lat: -6.9750324, lng: 107.6288057},
+    {lat: -6.9752082, lng: 107.629031}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis42,
+    var flightPath = new google.maps.Polyline({
+    path: garis42,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis43 = [
-        {lat: -6.9750324, lng: 107.6288057},
-        {lat: -6.9751389, lng: 107.6288326},
-        {lat: -6.9753093, lng: 107.628972},
-        {lat: -6.9777587, lng: 107.628972},
-        {lat: -6.9777747, lng: 107.6291222},
-        {lat: -6.9777214, lng: 107.629251},
-        {lat: -6.9776895, lng: 107.6294656},
-        {lat: -6.9777054, lng: 107.6295299},
-        {lat: -6.9776469,  lng: 107.6296694},
-        {lat: -6.97778, lng: 107.6305224},
-        {lat: -6.9778119, lng: 107.6305599},
-        {lat: -6.9787065, lng: 107.6312626},
-        {lat: -6.9784935, lng: 107.6313217},
-        {lat: -6.9783444, lng: 107.6313914},
-        {lat: -6.9783125, lng: 107.6315148},
-        {lat: -6.9783976, lng: 107.6321531},
-        {lat: -6.9783657, lng: 107.6322712},
-        {lat: -6.9782486, lng: 107.6323677},
-        {lat: -6.9779025, lng: 107.6324911},
-        {lat: -6.9774073, lng: 107.6325716},
-        {lat: -6.9770984, lng: 107.6326091},
-        {lat: -6.9768854,  lng: 107.6327003},
-        {lat: -6.9765713, lng: 107.6328612},
-        {lat: -6.9763956, lng: 107.6329042},
-        {lat: -6.9760921, lng: 107.6329578},
-        {lat: -6.9755862,  lng: 107.63299},
-        {lat: -6.9753945, lng: 107.6328451},
-        {lat: -6.9752561, lng: 107.6327057},
-        {lat: -6.9751176, lng: 107.632593},
-        {lat: -6.9748461, lng: 107.6325072},
-        {lat: -6.9744574, lng: 107.6325555},
-        {lat: -6.9741326, lng: 107.6326037},
-        {lat: -6.9739794, lng: 107.6326382},
-        {lat: -6.9738131, lng: 107.6327647},
-        {lat: -6.9735841, lng: 107.6330007},
-        {lat: -6.9726257, lng: 107.6339985},
-        {lat: -6.972631, lng: 107.634079},
-        {lat: -6.9725618, lng: 107.6341433},
-        {lat: -6.9725884, lng: 107.6344437},
-        {lat: -6.9726416, lng: 107.6347817},
-        {lat: -6.9726842, lng: 107.6350124},
-        {lat: -6.9727055, lng: 107.6353128},
-        {lat: -6.9727162, lng: 107.6355274},
-        {lat: -6.9727481,  lng: 107.6358117},
-        {lat: -6.972812, lng: 107.6361496}
-        ];
+    flightPath.setMap(map);
+    
+    var garis43 = [
+    {lat: -6.9750324, lng: 107.6288057},
+    {lat: -6.9751389, lng: 107.6288326},
+    {lat: -6.9753093, lng: 107.628972},
+    {lat: -6.9777587, lng: 107.628972},
+    {lat: -6.9777747, lng: 107.6291222},
+    {lat: -6.9777214, lng: 107.629251},
+    {lat: -6.9776895, lng: 107.6294656},
+    {lat: -6.9777054, lng: 107.6295299},
+    {lat: -6.9776469,  lng: 107.6296694},
+    {lat: -6.97778, lng: 107.6305224},
+    {lat: -6.9778119, lng: 107.6305599},
+    {lat: -6.9787065, lng: 107.6312626},
+    {lat: -6.9784935, lng: 107.6313217},
+    {lat: -6.9783444, lng: 107.6313914},
+    {lat: -6.9783125, lng: 107.6315148},
+    {lat: -6.9783976, lng: 107.6321531},
+    {lat: -6.9783657, lng: 107.6322712},
+    {lat: -6.9782486, lng: 107.6323677},
+    {lat: -6.9779025, lng: 107.6324911},
+    {lat: -6.9774073, lng: 107.6325716},
+    {lat: -6.9770984, lng: 107.6326091},
+    {lat: -6.9768854,  lng: 107.6327003},
+    {lat: -6.9765713, lng: 107.6328612},
+    {lat: -6.9763956, lng: 107.6329042},
+    {lat: -6.9760921, lng: 107.6329578},
+    {lat: -6.9755862,  lng: 107.63299},
+    {lat: -6.9753945, lng: 107.6328451},
+    {lat: -6.9752561, lng: 107.6327057},
+    {lat: -6.9751176, lng: 107.632593},
+    {lat: -6.9748461, lng: 107.6325072},
+    {lat: -6.9744574, lng: 107.6325555},
+    {lat: -6.9741326, lng: 107.6326037},
+    {lat: -6.9739794, lng: 107.6326382},
+    {lat: -6.9738131, lng: 107.6327647},
+    {lat: -6.9735841, lng: 107.6330007},
+    {lat: -6.9726257, lng: 107.6339985},
+    {lat: -6.972631, lng: 107.634079},
+    {lat: -6.9725618, lng: 107.6341433},
+    {lat: -6.9725884, lng: 107.6344437},
+    {lat: -6.9726416, lng: 107.6347817},
+    {lat: -6.9726842, lng: 107.6350124},
+    {lat: -6.9727055, lng: 107.6353128},
+    {lat: -6.9727162, lng: 107.6355274},
+    {lat: -6.9727481,  lng: 107.6358117},
+    {lat: -6.972812, lng: 107.6361496}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis43,
+    var flightPath = new google.maps.Polyline({
+    path: garis43,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis44 = [
-        {lat: -6.9725618, lng: 107.6341433},
-        {lat: -6.9724728, lng: 107.6341256},
-        {lat: -6.9724462, lng: 107.6340237},
-        {lat: -6.9724834, lng: 107.6339593},
-        {lat: -6.9725527, lng: 107.6339432},
-        {lat: -6.9726257, lng: 107.6339985}
-        ];
+    flightPath.setMap(map);
+    
+    var garis44 = [
+    {lat: -6.9725618, lng: 107.6341433},
+    {lat: -6.9724728, lng: 107.6341256},
+    {lat: -6.9724462, lng: 107.6340237},
+    {lat: -6.9724834, lng: 107.6339593},
+    {lat: -6.9725527, lng: 107.6339432},
+    {lat: -6.9726257, lng: 107.6339985}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis44,
+    var flightPath = new google.maps.Polyline({
+    path: garis44,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis45 = [
-        {lat: -6.9724834, lng: 107.6339593},
-        {lat: -6.9722438, lng: 107.6337018},
-        {lat: -6.9720362, lng: 107.6333746},
-        {lat: -6.9717753, lng: 107.6329991},
-        {lat: -6.9714664, lng: 107.6325699},
-        {lat: -6.9712854, lng: 107.6323231},
-        {lat: -6.9709286, lng: 107.6318082},
-        {lat: -6.9704015, lng: 107.6310303},
-        {lat: -6.9703269, lng: 107.6309499},
-        {lat: -6.9702151, lng: 107.6309069},
-        {lat: -6.9697518, lng: 107.630746},
-        {lat: -6.9694164, lng: 107.6292386}
-        ];
+    flightPath.setMap(map);
+    
+    var garis45 = [
+    {lat: -6.9724834, lng: 107.6339593},
+    {lat: -6.9722438, lng: 107.6337018},
+    {lat: -6.9720362, lng: 107.6333746},
+    {lat: -6.9717753, lng: 107.6329991},
+    {lat: -6.9714664, lng: 107.6325699},
+    {lat: -6.9712854, lng: 107.6323231},
+    {lat: -6.9709286, lng: 107.6318082},
+    {lat: -6.9704015, lng: 107.6310303},
+    {lat: -6.9703269, lng: 107.6309499},
+    {lat: -6.9702151, lng: 107.6309069},
+    {lat: -6.9697518, lng: 107.630746},
+    {lat: -6.9694164, lng: 107.6292386}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis45,
+    var flightPath = new google.maps.Polyline({
+    path: garis45,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis46 = [
-        {lat: -6.9697518, lng: 107.630746},
-        {lat: -6.9695925, lng: 107.6306819},
-        {lat: -6.9692098, lng: 107.6305961}
-        ];
+    flightPath.setMap(map);
+    
+    var garis46 = [
+    {lat: -6.9697518, lng: 107.630746},
+    {lat: -6.9695925, lng: 107.6306819},
+    {lat: -6.9692098, lng: 107.6305961}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis46,
+    var flightPath = new google.maps.Polyline({
+    path: garis46,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis47 = [
-        {lat: -6.9705297, lng: 107.6312183},
-        {lat: -6.9709876, lng: 107.6308857},
-        {lat: -6.9713497, lng: 107.6306658},
-        {lat: -6.9714243, lng: 107.6305746},
-        {lat: -6.9715201, lng: 107.6304941},
-        {lat: -6.971584, lng: 107.6304727},
-        {lat: -6.9718396, lng: 107.6304673},
-        {lat: -6.9719141, lng: 107.6304244},
-        {lat: -6.9719141, lng: 107.630242},
-        {lat: -6.9719514, lng: 107.6301991},
-        {lat: -6.9720419, lng: 107.630183},
-        {lat: -6.9735861, lng: 107.6301884},
-        {lat: -6.973634, lng: 107.6300811},
-        {lat: -6.9737299, lng: 107.6299792},
-        {lat: -6.9738523, lng: 107.6299148},
-        {lat: -6.9739748, lng: 107.6298933},
-        {lat: -6.9741239, lng: 107.6299201},
-        {lat: -6.9742677, lng: 107.6300274},
-        {lat: -6.9743582, lng: 107.630183},
-        {lat: -6.9743688, lng: 107.6302313},
-        {lat: -6.9749066, lng: 107.6302098},
-        {lat: -6.9750877, lng: 107.630242},
-        {lat: -6.9752261, lng: 107.6302742},
-        {lat: -6.9753113, lng: 107.6302849}
-        ];
+    flightPath.setMap(map);
+    
+    var garis47 = [
+    {lat: -6.9705297, lng: 107.6312183},
+    {lat: -6.9709876, lng: 107.6308857},
+    {lat: -6.9713497, lng: 107.6306658},
+    {lat: -6.9714243, lng: 107.6305746},
+    {lat: -6.9715201, lng: 107.6304941},
+    {lat: -6.971584, lng: 107.6304727},
+    {lat: -6.9718396, lng: 107.6304673},
+    {lat: -6.9719141, lng: 107.6304244},
+    {lat: -6.9719141, lng: 107.630242},
+    {lat: -6.9719514, lng: 107.6301991},
+    {lat: -6.9720419, lng: 107.630183},
+    {lat: -6.9735861, lng: 107.6301884},
+    {lat: -6.973634, lng: 107.6300811},
+    {lat: -6.9737299, lng: 107.6299792},
+    {lat: -6.9738523, lng: 107.6299148},
+    {lat: -6.9739748, lng: 107.6298933},
+    {lat: -6.9741239, lng: 107.6299201},
+    {lat: -6.9742677, lng: 107.6300274},
+    {lat: -6.9743582, lng: 107.630183},
+    {lat: -6.9743688, lng: 107.6302313},
+    {lat: -6.9749066, lng: 107.6302098},
+    {lat: -6.9750877, lng: 107.630242},
+    {lat: -6.9752261, lng: 107.6302742},
+    {lat: -6.9753113, lng: 107.6302849}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis47,
+    var flightPath = new google.maps.Polyline({
+    path: garis47,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis48 = [
-        {lat: -6.9735861, lng: 107.6301884},
-        {lat: -6.9735781, lng: 107.6303547},
-        {lat: -6.973626, lng: 107.6304727},
-        {lat: -6.9737112, lng: 107.6305907},
-        {lat: -6.9738071, lng: 107.6306551},
-        {lat: -6.9739508, lng: 107.6306873},
-        {lat: -6.9740573, lng: 107.6306765},
-        {lat: -6.9741745, lng: 107.6306229},
-        {lat: -6.9742597, lng: 107.6305478},
-        {lat: -6.9743236, lng: 107.6304566},
-        {lat: -6.9743449, lng: 107.6303761},
-        {lat: -6.9743688, lng: 107.6302313}
-        ];
+    flightPath.setMap(map);
+    
+    var garis48 = [
+    {lat: -6.9735861, lng: 107.6301884},
+    {lat: -6.9735781, lng: 107.6303547},
+    {lat: -6.973626, lng: 107.6304727},
+    {lat: -6.9737112, lng: 107.6305907},
+    {lat: -6.9738071, lng: 107.6306551},
+    {lat: -6.9739508, lng: 107.6306873},
+    {lat: -6.9740573, lng: 107.6306765},
+    {lat: -6.9741745, lng: 107.6306229},
+    {lat: -6.9742597, lng: 107.6305478},
+    {lat: -6.9743236, lng: 107.6304566},
+    {lat: -6.9743449, lng: 107.6303761},
+    {lat: -6.9743688, lng: 107.6302313}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis48,
+    var flightPath = new google.maps.Polyline({
+    path: garis48,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis49 = [
-        {lat: -6.9743342, lng: 107.6304056},
-        {lat: -6.9749945, lng: 107.6303949},
-        {lat: -6.9752288, lng: 107.6304056}
-        ];
+    flightPath.setMap(map);
+    
+    var garis49 = [
+    {lat: -6.9743342, lng: 107.6304056},
+    {lat: -6.9749945, lng: 107.6303949},
+    {lat: -6.9752288, lng: 107.6304056}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis49,
+    var flightPath = new google.maps.Polyline({
+    path: garis49,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis50 = [
-        {lat: -6.9732299, lng: 107.6333582},
-        {lat: -6.972165, lng: 107.6322907},
-        {lat: -6.9720585, lng: 107.6320922},
-        {lat: -6.9714621, lng: 107.6314485},
-        {lat: -6.9710156, lng: 107.6308655}
-        ];
+    flightPath.setMap(map);
+    
+    var garis50 = [
+    {lat: -6.9732299, lng: 107.6333582},
+    {lat: -6.972165, lng: 107.6322907},
+    {lat: -6.9720585, lng: 107.6320922},
+    {lat: -6.9714621, lng: 107.6314485},
+    {lat: -6.9710156, lng: 107.6308655}
+    ];
   
-        var flightPath = new google.maps.Polyline({
-        path: garis50,
+    var flightPath = new google.maps.Polyline({
+    path: garis50,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
-        flightPath.setMap(map);
-        
-        var garis51 = [
+    flightPath.setMap(map);
+    
+    var garis51 = [
     {lat: -6.9709286, lng: 107.6318082},
     {lat: -6.9714621, lng: 107.6314485}
     ];
@@ -1346,7 +1437,7 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis51,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1360,7 +1451,7 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis52,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1374,12 +1465,12 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis53,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
     flightPath.setMap(map);
-        
+    
     var garis54 = [
     {lat: -6.9725138, lng: 107.6283712},
     {lat: -6.9725061, lng: 107.6289007}
@@ -1388,7 +1479,7 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis54,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1404,7 +1495,7 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis55,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1420,7 +1511,7 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis56,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1436,7 +1527,7 @@ new google.maps.Polygon({
     var flightPath = new google.maps.Polyline({
     path: garis57,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1452,7 +1543,7 @@ var garis58 = [
     var flightPath = new google.maps.Polyline({
     path: garis58,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1468,7 +1559,7 @@ var garis58 = [
     var flightPath = new google.maps.Polyline({
     path: garis59,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1482,7 +1573,7 @@ var garis58 = [
     var flightPath = new google.maps.Polyline({
     path: garis60,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1498,7 +1589,7 @@ var garis58 = [
     var flightPath = new google.maps.Polyline({
     path: garis61,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1512,7 +1603,7 @@ var garis62 = [
     var flightPath = new google.maps.Polyline({
     path: garis62,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1526,7 +1617,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis63,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1540,7 +1631,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis64,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1555,7 +1646,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis65,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1569,7 +1660,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis66,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1585,7 +1676,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis67,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1612,7 +1703,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis68,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1626,7 +1717,7 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis69,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
@@ -1642,93 +1733,153 @@ var garis63 = [
     var flightPath = new google.maps.Polyline({
     path: garis70,
         geodesic: true,
-        strokeColor: '#000000',
+        strokeColor: '#FFFFFF',
         strokeOpacity: 1.0,
         strokeWeight: 2
         });
     flightPath.setMap(map);
 
-        // Array of markers
+    var garis71 = [
+    {lat: -6.9726931, lng:  107.6328158},
+    {lat: -6.9728555, lng: 107.6326415},
+    {lat: -6.9732895, lng: 107.6330438},
+    {lat: -6.9733774, lng: 107.6329634}
+    ];
+  
+    var flightPath = new google.maps.Polyline({
+    path: garis71,
+        geodesic: true,
+        strokeColor: '#FFFFFF',
+        strokeOpacity: 1.0,
+        strokeWeight: 2
+        });
+    flightPath.setMap(map);
+
+    var garis72 = [
+    {lat: -6.972773, lng: 107.6325744},
+    {lat: -6.9728555, lng: 107.6326415}
+    ];
+  
+    var flightPath = new google.maps.Polyline({
+    path: garis72,
+        geodesic: true,
+        strokeColor: '#FFFFFF',
+        strokeOpacity: 1.0,
+        strokeWeight: 2
+        });
+    flightPath.setMap(map);
+
+     var garis73 = [
+    {lat: -6.9721607, lng: 107.63357},
+    {lat: -6.9730579, lng: 107.6335405}
+    ];
+  
+    var flightPath = new google.maps.Polyline({
+    path: garis72,
+        geodesic: true,
+        strokeColor: '#FFFFFF',
+        strokeOpacity: 1.0,
+        strokeWeight: 2
+        });
+    flightPath.setMap(map);
+
+var garis74 = [
+    {lat: -6.9742806, lng:  107.6290347},
+    {lat: -6.9742753, lng: 107.6284285},
+    {lat: -6.9742088, lng: 107.6283668},
+    {lat: -6.9740048, lng: 107.6283819}
+    ];
+  
+    var flightPath = new google.maps.Polyline({
+    path: garis74,
+        geodesic: true,
+        strokeColor: '#FFFFFF',
+        strokeOpacity: 1.0,
+        strokeWeight: 2
+        });
+    flightPath.setMap(map);
+
+    // Array of markers
       var markers = [
         {
           coords:{lat:-6.9742851,lng:107.6309633},
-          content:'<h2>Gedung A</h2>'
+      content:'<h2>Gedung A</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
         {
           coords:{lat:-6.9733192,lng:107.6310673},
-          content:'<h2>Danau Galau</h2>'
+          content:'<h2>Danau Galau</h2><h4>Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4>'
         },
         {
           coords:{lat:-6.976399,lng:107.6307125},
-          content:'<h2>Gedung Serba Guna</h2>'
+      content:'<h2>Gedung Serba Guna</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
-          coords:{lat:-6.974837,lng:107.630969},
-          content:'<h2>Gedung B</h2>'
-        },
-        {
-          coords:{lat:-6.973964,lng:107.630293},
-          content:'<h2>Rektorat</h2>'
-        },
-        {
-          coords:{lat:-6.975500,lng:107.629639},
-          content:'<h2>Gedung P</h2>'
-        },
-        {
-          coords:{lat:-6.976155,lng:107.629728},
-          content:'<h2>Gedung O</h2>'
-        },
-        {
+    {
+      coords:{lat:-6.974837,lng:107.630969},
+      content:'<h2>Gedung B</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+    },
+    {
+      coords:{lat:-6.973964,lng:107.630293},
+      content:'<h2>Rektorat</h2><h4>Jl. Telekomunikasi, Jl. Terusan Buah Batu No.01, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><h4>https://goo.gl/maps/8t5fsWDDPizRtJ4W6</h4>'
+    },
+    {
+      coords:{lat:-6.975500,lng:107.629639},
+      content:'<h2>Gedung P</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+    },
+    {
+      coords:{lat:-6.976155,lng:107.629728},
+      content:'<h2>Gedung O</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+    },
+    {
           coords:{lat:-6.976570,lng:107.629329},
-          content:'<h2>Gedung N</h2>'
+      content:'<h2>Gedung N</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.977481,lng:107.629406},
-          content:'<h2>Student Center</h2>'
+      content:'<h2>Student Center</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.970624,lng:107.627913},
-          content:'<h2>Asrama Putra</h2>'
+      content:'<h2>Asrama Putra</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4>'
         },
-        {
+    {
           coords:{lat:-6.973329,lng:107.628778},
-          content:'<h2>Asrama Putri</h2>'
+      content:'<h2>Asrama Putri</h2><h4>Jalan Radio Palasari Road No.3, Citeureup, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.972972,lng:107.629570},
-          content:'<h2>GKU</h2>'
+      content:'<h2>GKU</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.975766,lng:107.632061},
-          content:'<h2>MSU</h2>'
+      content:'<h2>MSU</h2><h4>Jl. Telekomunikasi No. 1, Terusan Buah Batu, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257Jl. Telekomunikasi No. 1, Terusan Buah Batu, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.971381,lng:107.631167},
-          content:'<h2>TUCH</h2>'
+      content:'<h2>TUCH</h2><h4>No., Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4>'
         },
-        {
+    {
           coords:{lat:-6.971887,lng:107.631383},
-          content:'<h2>FIK</h2>'
+      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4>'
         },
-        {
+    {
           coords:{lat:-6.971524,lng:107.632205},
-          content:'<h2>FEB, FKB</h2>'
+      content:'<h2>FEB, Open Library, FKB</h2><h4>Jalan Telekomunikasi No.1 Lt.5, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.973091,lng:107.632488},
-          content:'<h2>FIK</h2>'
+      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4>'
         },
-        {
+    {
           coords:{lat:-6.975540,lng:107.631083},
-          content:'<h2>FRI</h2>'
+      content:'<h2>FRI</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        {
+    {
           coords:{lat:-6.975808,lng:107.630699},
-          content:'<h2>FI</h2>'
+      content:'<h2>FI</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
         },
-        
+    
       ];
-      
+    
 
       // Loop through markers
       for(var i = 0;i < markers.length;i++){
@@ -1761,6 +1912,32 @@ var garis63 = [
           });
         }
       }
+      var control = document.getElementById('floating-panel');
+        control.style.display = 'block';
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
+
+        var onChangeHandler = function() {
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+        };
+        document.getElementById('start').addEventListener('change', onChangeHandler);
+        document.getElementById('end').addEventListener('change', onChangeHandler);
+      }
+
+      function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+        var start = document.getElementById('start').value;
+        var end = document.getElementById('end').value;
+        var selectedMode = document.getElementById('mode').value;
+        directionsService.route({
+          origin: start,
+          destination: end,
+          travelMode: google.maps.TravelMode[selectedMode]
+        }, function(response, status) {
+          if (status === 'OK') {
+            directionsDisplay.setDirections(response);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
       }
     </script>
     <script async defer
@@ -1779,7 +1956,6 @@ var garis63 = [
 
     
         
-</body>
 
 <!-- Mirrored from cvresumetemplate.com/maha-personal-cv-resume-html-template/home-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Apr 2019 13:38:58 GMT -->
 </html>

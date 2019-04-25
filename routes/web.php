@@ -26,6 +26,38 @@ Route::get('/asisten','HomeController@calon_asisten'
 Route::get('/game','HomeController@game' 
     );
 
+
+
+// khusuzon Asisten
+Route::get('/admin/viewAsisten', 'AsistenController@viewAsisten');
+Route::get('/admin/viewAsisten/web', 'AsistenController@show_web');
+Route::get('/admin/viewAsisten/ids', 'AsistenController@show_ids');
+Route::get('/admin/viewAsisten/voip', 'AsistenController@show_voip');
+Route::get('/admin/viewAsisten/gis', 'AsistenController@show_gis');
+Route::get('/admin/viewAsisten/iv', 'AsistenController@show_iv');
+Route::get('/admin/viewAsisten/asisten', 'AsistenController@show_asisten');
+Route::get('/admin/viewAsisten/calon_asisten', 'AsistenController@show_calon_asisten');
+Route::get('/admin/insertAsisten', 'AsistenController@insertAsisten');
+Route::post('/admin/storeAsisten', "AsistenController@storeAsisten" 
+    //
+);
+Route::get('/admin/lihatAsisten/{id_user}', 'AsistenController@show');
+
+
+// khusuzon camera
+Route::get('/admin/viewCamera', 'kameraController@viewCamera');
+Route::get('/admin/viewCamera/canon', 'kameraController@show_canon');
+Route::get('/admin/viewCamera/nikon', 'kameraController@show_nikon');
+Route::get('/admin/viewCamera/samsung', 'kameraController@show_samsung');
+Route::get('/admin/viewCamera/sony', 'kameraController@show_sony');
+Route::get('/admin/viewCamera/goPro', 'kameraController@show_gopro');
+Route::get('/admin/viewCamera/tersedia', 'kameraController@show_tersedia');
+Route::get('/admin/viewCamera/kosong', 'kameraController@show_kosong');
+Route::get('/admin/insertCamera', 'kameraController@insertCamera');
+Route::post('/admin/storeCamera', "kameraController@storeCamera" 
+    //
+);
+
 // khusuzon insert admin & view admin
 
 Route::post('/admin/storeAdmin', "DaftarController@store");
@@ -136,19 +168,6 @@ Route::get('/alogin', 'AdminController@index');
 Route::get('/admin/home', 'AdminController@dashboard');
 
 
-// khusuzon camera
-Route::get('/admin/viewCamera', 'kameraController@viewCamera');
-Route::get('/admin/viewCamera/canon', 'kameraController@show_canon');
-Route::get('/admin/viewCamera/nikon', 'kameraController@show_nikon');
-Route::get('/admin/viewCamera/samsung', 'kameraController@show_samsung');
-Route::get('/admin/viewCamera/sony', 'kameraController@show_sony');
-Route::get('/admin/viewCamera/goPro', 'kameraController@show_gopro');
-Route::get('/admin/viewCamera/tersedia', 'kameraController@show_tersedia');
-Route::get('/admin/viewCamera/kosong', 'kameraController@show_kosong');
-Route::get('/admin/insertCamera', 'kameraController@insertCamera');
-Route::post('/admin/storeCamera', "kameraController@storeCamera" 
-    //
-);
 Route::get('/admin/lihatCamera/{merk}', 'kameraController@show' 
     //
 );
@@ -163,19 +182,6 @@ Route::get('/admin/deleteCamera/{id_kamera}', 'kameraController@destroy'
 );
 
 
-// khusuzon Asisten
-Route::get('/admin/viewAsisten', 'AsistenController@viewAsisten');
-Route::get('/admin/viewAsisten/web', 'AsistenController@show_web');
-Route::get('/admin/viewAsisten/ids', 'AsistenController@show_ids');
-Route::get('/admin/viewAsisten/voip', 'AsistenController@show_voip');
-Route::get('/admin/viewAsisten/gis', 'AsistenController@show_gis');
-Route::get('/admin/viewAsisten/iv', 'AsistenController@show_iv');
-Route::get('/admin/viewAsisten/asisten', 'AsistenController@show_asisten');
-Route::get('/admin/viewAsisten/calon_asisten', 'AsistenController@show_calon_asisten');
-Route::get('/admin/insertAsisten', 'AsistenController@insertAsisten');
-Route::post('/admin/storeAsisten', "AsistenController@storeAsisten" 
-    //
-);
 
 
 

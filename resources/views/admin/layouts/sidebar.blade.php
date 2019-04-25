@@ -47,8 +47,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="/admin/insertCamera"><i class="fa fa-plus"></i> Insert Calon Asiten</a></li>
-            <li><a href="/admin/viewCamera"><i class="fa fa-search"></i> Lihat Calon Asiten</a></li>
+            <li><a href="/admin/insertAsisten"><i class="fa fa-plus"></i> Insert Calon Asiten</a></li>
+            <li><a href="/admin/viewAsisten"><i class="fa fa-search"></i> Lihat Calon Asiten</a></li>
           </ul>
         </li>
 

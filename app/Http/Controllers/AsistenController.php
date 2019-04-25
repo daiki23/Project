@@ -38,15 +38,15 @@ class AsistenController extends Controller
     public function insertAsisten()
     {
         //
-        return view('admin/insertCamera');
+        return view('admin/insertAsisten');
     }
 
        public function viewAsisten()
     {
         //
          // $kameras = DB::table('tb_kamera')->get();
-        $kameras = kamera::all();
-        return view('admin/viewCamera',compact('kameras'));
+        $asistens = asisten::all();
+        return view('admin/viewAsisten',compact('asistens'));
     }
 
      public function storeAsisten(Request $request)
@@ -55,13 +55,85 @@ class AsistenController extends Controller
         // dd($request-> all()); 
         #--> untuk mengetes apakah bisa di store apa tidak
 
-        $kamera = new kamera;
+        // $kamera = new kamera;
+        // $kamera->merk=Input::get("merk");
+        //  $kamera->tipe=Input::get("tipe");
+        // $kamera->deskripsi=Input::get("deskripsi");
+        // $kamera->fitur=Input::get("fitur");
+        //   $kamera->status=Input::get("status");
+        // $kamera->harga_sewa=Input::get("harga_sewa");
+      
+
+        // if(Input::hasFile("gambar")){
+        //     $files = Input::file("gambar");
+        //     $merk = time()."_".$files->getClientOriginalName();
+        //     $image = $files->move(public_path().'/image',$merk);
+        //     $kamera->gambar=$merk;
+        // }
+        // $kamera->save();
+        // return redirect('/admin/viewCamera');
+
+        $asisten = new asisten;
+        $asisten->nama=Input::get("nama");
+         $asisten->panggilan=Input::get("panggilan");
+        $asisten->jurusan=Input::get("jurusan");
+        $asisten->asal=Input::get("asal");
+          $asisten->divisi=Input::get("divisi");
+    
+      
+
+        if(Input::hasFile("gambar")){
+            $files = Input::file("gambar");
+            $nama = time()."_".$files->getClientOriginalName();
+            $image = $files->move(public_path().'/image',$nama);
+            $asisten->gambar=$nama;
+        }
+        $asisten->save();
+        return redirect('/admin/viewAsisten');
+    }
+
+   public function show($id_user)
+    {
+        //
+        $asistens = DB::table("asistens")->where('id_user',$id_user)->first();
+        // $user = customer::find($id);
+        return view('admin/detilCamera',compact('kameras'));
+
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\kamera  $kamera
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id_kamera)
+    {
+        //
+        
+          $kameras = DB::table("kameras")->where('id_kamera',$id_kamera)->first();
+        
+          return view('admin/updateCamera')->with(compact('kameras'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\kamera  $kamera
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id_kamera)
+    {
+        //
+         $kamera = kamera::find($id_kamera);
+     // $kameras = DB::table("kameras")->where('id_kamera',$id_kamera)->first();
         $kamera->merk=Input::get("merk");
-         $kamera->tipe=Input::get("tipe");
+        $kamera->tipe=Input::get("tipe");
         $kamera->deskripsi=Input::get("deskripsi");
         $kamera->fitur=Input::get("fitur");
-          $kamera->status=Input::get("status");
         $kamera->harga_sewa=Input::get("harga_sewa");
+        $kamera->status=Input::get("status");
       
 
         if(Input::hasFile("gambar")){
@@ -75,58 +147,68 @@ class AsistenController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\asisten  $asisten
-     * @return \Illuminate\Http\Response
-     */
-    public function show(asisten $asisten)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\asisten  $asisten
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(asisten $asisten)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\asisten  $asisten
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, asisten $asisten)
-    {
-        //
-    }
-
-    /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\asisten  $asisten
+     * @param  \App\kamera  $kamera
      * @return \Illuminate\Http\Response
      */
-    public function destroy(asisten $asisten)
+    public function destroy($id_kamera)
     {
         //
+           // $kamera = kamera::find($id_kamera);
+       $kameras = DB::table("kameras")->where('id_kamera',$id_kamera);
+        $kameras->delete();
+        return redirect('/admin/viewCamera');
+    }
+
+    //    Method untuk mengambil status barang
+    public function show_tersedia()
+    {
+        $kameras = DB::table('kameras')->where('status', 'tersedia')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
+    }
+
+    public function show_kosong()
+    {
+        $kameras = DB::table('kameras')->where('status', 'kosong')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
+    }
+
+    //    Method untuk mengambil nama merk
+    public function show_canon()
+    {
+        $kameras = DB::table('kameras')->where('merk', 'canon')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
+    }
+
+    public function show_nikon()
+    {
+        $kameras = DB::table('kameras')->where('merk', 'nikon')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
+    }
+
+    public function show_sony()
+    {
+        $kameras = DB::table('kameras')->where('merk', 'sony')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
+    }
+
+    public function show_samsung()
+    {
+        $kameras = DB::table('kameras')->where('merk', 'samsung')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
+    }
+
+    public function show_gopro()
+    {
+        $kameras = DB::table('kameras')->where('merk', 'gopro')->get();
+
+        return view('admin/viewCamera', ['kameras' => $kameras]);
     }
 }

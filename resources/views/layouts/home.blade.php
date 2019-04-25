@@ -694,7 +694,7 @@
                         <div class="col-sm-12 mh-footer-address">
                         
                         </div>
-                        <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="row">
@@ -717,10 +717,11 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        <div class="col-md-8 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <div class="mh-map">
                                 <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1dyuQqm8RcoXh-Hio4KsG7tnrIMFYo9UB" ></iframe> -->
                                 
+                                <div id="right-panel"></div>
                                   <div style="position:relative;padding-top:56.25%;" id="map">
                                       
 

@@ -8,6 +8,7 @@ use App\kamera;
 use App\lensa;
 use App\wishlist;
 use App\contact;
+use App\asisten;
 
 
 
@@ -26,10 +27,10 @@ class CariController extends Controller
     public function searchAsisten(Request $request)
     {
         $query = $request->get('q');
-        $hasil = kamera::where('merk', 'LIKE', '%' . $query . '%')->orWhere('tipe','LIKE','%'.$query.'%')->orWhere('id_kamera','LIKE','%'.$query.'%')->paginate(10);
+        $hasil = asisten::where('divisi', 'LIKE', '%' . $query . '%')->orWhere('nama','LIKE','%'.$query.'%')->orWhere('panggilan','LIKE','%'.$query.'%')->orWhere('id_user','LIKE','%'.$query.'%')->paginate(10);
      
 
-        return view('admin/resultKamera',compact('hasil','query'));
+        return view('admin/resultAsisten',compact('hasil','query'));
     }
 
 
@@ -39,7 +40,7 @@ class CariController extends Controller
         $hasil = kamera::where('merk', 'LIKE', '%' . $query . '%')->orWhere('tipe','LIKE','%'.$query.'%')->orWhere('id_kamera','LIKE','%'.$query.'%')->paginate(10);
      
 
-        return view('admin/resultKamera',compact('hasil','query'));
+        return view('admin/resultAsisten',compact('hasil','query'));
     }
 
 
