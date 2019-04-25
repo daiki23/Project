@@ -43,6 +43,17 @@ Route::post('/admin/storeAsisten', "AsistenController@storeAsisten"
 );
 Route::get('/admin/lihatAsisten/{id_user}', 'AsistenController@show');
 
+Route::get('/admin/editAsisten/{id_user}', 'AsistenController@edit' 
+    //
+);
+Route::patch('/admin/editAsisten/update/{id_user}', "AsistenController@update" 
+    //
+);
+Route::get('/admin/deleteAsisten/{id_user}', 'AsistenController@destroy' 
+    //
+);
+
+
 
 // khusuzon camera
 Route::get('/admin/viewCamera', 'kameraController@viewCamera');

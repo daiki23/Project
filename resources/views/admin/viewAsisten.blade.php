@@ -39,8 +39,12 @@
             Pilih Divisi
           </button>
           <div class="dropdown-menu">
-            <a  href="/admin/viewAsisten/tersedia">Tersedia</a>
-            <a  href="/admin/viewAsisten/kosong">Kosong</a>
+            <a  href="/admin/viewAsisten/web">web</a>
+            <a  href="/admin/viewAsisten/voip">voip</a>
+            <a  href="/admin/viewAsisten/ids">ids</a>
+            <a  href="/admin/viewAsisten/gis">gis</a>
+            <a  href="/admin/viewAsisten/iv">iv</a>
+            <a  href="/admin/viewAsisten/gametech">gametech</a>
           </div>
         </div>
       </div>

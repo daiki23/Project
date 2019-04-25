@@ -107,13 +107,13 @@ class AsistenController extends Controller
      * @param  \App\kamera  $kamera
      * @return \Illuminate\Http\Response
      */
-    public function edit($id_kamera)
+    public function edit($id_user)
     {
         //
         
-          $kameras = DB::table("kameras")->where('id_kamera',$id_kamera)->first();
+          $asisten = DB::table("asistens")->where('id_user',$id_user)->first();
         
-          return view('admin/updateCamera')->with(compact('kameras'));
+          return view('admin/updateAsisten')->with(compact('asisten'));
     }
 
     /**
@@ -123,27 +123,28 @@ class AsistenController extends Controller
      * @param  \App\kamera  $kamera
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id_kamera)
+    public function update(Request $request, $id_user)
     {
-        //
-         $kamera = kamera::find($id_kamera);
-     // $kameras = DB::table("kameras")->where('id_kamera',$id_kamera)->first();
-        $kamera->merk=Input::get("merk");
-        $kamera->tipe=Input::get("tipe");
-        $kamera->deskripsi=Input::get("deskripsi");
-        $kamera->fitur=Input::get("fitur");
-        $kamera->harga_sewa=Input::get("harga_sewa");
-        $kamera->status=Input::get("status");
+        
+
+        $asisten = asisten::find($id_user);
+  
+        $asisten->nama=Input::get("nama");
+         $asisten->panggilan=Input::get("panggilan");
+        $asisten->jurusan=Input::get("jurusan");
+        $asisten->asal=Input::get("asal");
+          $asisten->divisi=Input::get("divisi");
+    
       
 
         if(Input::hasFile("gambar")){
             $files = Input::file("gambar");
-            $merk = time()."_".$files->getClientOriginalName();
-            $image = $files->move(public_path().'/image',$merk);
-            $kamera->gambar=$merk;
+            $nama = time()."_".$files->getClientOriginalName();
+            $image = $files->move(public_path().'/image',$nama);
+            $asisten->gambar=$nama;
         }
-        $kamera->save();
-        return redirect('/admin/viewCamera');
+        $asisten->save();
+        return redirect('/admin/viewAsisten');
     }
 
     /**
@@ -152,63 +153,57 @@ class AsistenController extends Controller
      * @param  \App\kamera  $kamera
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id_kamera)
+    public function destroy($id_user)
     {
         //
            // $kamera = kamera::find($id_kamera);
-       $kameras = DB::table("kameras")->where('id_kamera',$id_kamera);
-        $kameras->delete();
-        return redirect('/admin/viewCamera');
+       $asisten = DB::table("asistens")->where('id_user',$id_user);
+        $asisten->delete();
+        return redirect('/admin/viewAsisten');
     }
 
     //    Method untuk mengambil status barang
-    public function show_tersedia()
+    public function show_ids()
     {
-        $kameras = DB::table('kameras')->where('status', 'tersedia')->get();
+        $asistens = DB::table('asistens')->where('divisi', 'ids')->get();
 
-        return view('admin/viewCamera', ['kameras' => $kameras]);
+        return view('admin/viewAsisten', ['asistens' => $asistens]);
     }
 
-    public function show_kosong()
+    public function show_voip()
     {
-        $kameras = DB::table('kameras')->where('status', 'kosong')->get();
+        $asistens = DB::table('asistens')->where('divisi', 'voip')->get();
 
-        return view('admin/viewCamera', ['kameras' => $kameras]);
+        return view('admin/viewAsisten', ['asistens' => $asistens]);
     }
 
     //    Method untuk mengambil nama merk
-    public function show_canon()
+    public function show_web()
     {
-        $kameras = DB::table('kameras')->where('merk', 'canon')->get();
+        $asistens = DB::table('asistens')->where('divisi', 'web')->get();
 
-        return view('admin/viewCamera', ['kameras' => $kameras]);
+        return view('admin/viewAsisten', ['asistens' => $asistens]);
     }
 
-    public function show_nikon()
+    public function show_gis()
     {
-        $kameras = DB::table('kameras')->where('merk', 'nikon')->get();
+        $asistens = DB::table('asistens')->where('divisi', 'gis')->get();
 
-        return view('admin/viewCamera', ['kameras' => $kameras]);
+        return view('admin/viewAsisten', ['asistens' => $asistens]);
     }
 
-    public function show_sony()
+    public function show_gametech()
     {
-        $kameras = DB::table('kameras')->where('merk', 'sony')->get();
+        $asistens = DB::table('asistens')->where('divisi', 'gametech')->get();
 
-        return view('admin/viewCamera', ['kameras' => $kameras]);
+        return view('admin/viewAsisten', ['asistens' => $asistens]);
     }
 
-    public function show_samsung()
+    public function show_iv()
     {
-        $kameras = DB::table('kameras')->where('merk', 'samsung')->get();
+        $asistens = DB::table('asistens')->where('divisi', 'iv')->get();
 
-        return view('admin/viewCamera', ['kameras' => $kameras]);
+        return view('admin/viewAsisten', ['asistens' => $asistens]);
     }
 
-    public function show_gopro()
-    {
-        $kameras = DB::table('kameras')->where('merk', 'gopro')->get();
-
-        return view('admin/viewCamera', ['kameras' => $kameras]);
-    }
 }
