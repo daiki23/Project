@@ -61,12 +61,12 @@
     <body class="dark-vertion black-bg">
         
         <!-- Start Loader -->
-       <!--  <div class="section-loader">
+        <div class="section-loader">
             <div class="loader">
                 <div></div>
                 <div></div> 
             </div>
-        </div> -->
+        </div>
         <!-- End Loader -->
         
         <!--
@@ -1800,7 +1800,7 @@ var garis74 = [
     flightPath.setMap(map);
 
     // Array of markers
-       var markers = [
+          var markers = [
         {
           coords:{lat:-6.9742851,lng:107.6309633},
       content:'<h2>Gedung A</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdA.jpg" />'
@@ -1810,7 +1810,7 @@ var garis74 = [
           content:'<h2>Danau Galau</h2><h4>Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4><img src="/source/map/danau.jpg" />'
         },
         {
-          coords:{lat:-6.976399,lng:107.6307125},
+          coords:{lat:-6.976277,lng:107.630266},
       content:'<h2>Gedung Serba Guna</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gsg.jpg" />'
         },
     {
@@ -1831,7 +1831,7 @@ var garis74 = [
     },
     {
           coords:{lat:-6.976570,lng:107.629329},
-      content:'<h2>Gedung N</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdN.jpg" />'
+      content:'<h2>FTE</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdN.jpg" /><br><a href="https://see.telkomuniversity.ac.id/" style="color:#090909;"" >Website</a>'
         },
     {
           coords:{lat:-6.977481,lng:107.629406},
@@ -1859,27 +1859,27 @@ var garis74 = [
         },
     {
           coords:{lat:-6.971887,lng:107.631383},
-      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4><img src="/source/map/fik.jpg" />'
+      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4><img src="/source/map/fik.jpg" /><a style="color:#090909;" href="https://ppm.telkomuniversity.ac.id/home/fakultas-industri-kreatif-abdimas/">Website</a>'
         },
     {
           coords:{lat:-6.971524,lng:107.632205},
-      content:'<h2>FEB, Open Library, FKB</h2><h4>Jalan Telekomunikasi No.1 Lt.5, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/feb.jpg" />'
+      content:'<h2>FEB, Open Library, FKB</h2><h4>Jalan Telekomunikasi No.1 Lt.5, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/feb.jpg" /><a style="color:#090909;" href="https://seb.telkomuniversity.ac.id/en/">Website</a>'
         },
     {
           coords:{lat:-6.973091,lng:107.632488},
-      content:'<h2>FIT</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4><img src="/source/map/fit.jpg" />'
+      content:'<h2>FIT</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4><img src="/source/map/fit.jpg" /><a style="color:#090909;" href="https://sas.telkomuniversity.ac.id/en/" style="color:#090909;";">Website</a>'
         },
     {
           coords:{lat:-6.975540,lng:107.631083},
-      content:'<h2>FRI</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/fri.jpg" />'
+      content:'<h2>FRI</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/fri.jpg" /><a style="color:#090909;" href="https://sie.telkomuniversity.ac.id/">Website</a>'
         },
     {
           coords:{lat:-6.975808,lng:107.630699},
-      content:'<h2>FI</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/fi.jpg" />'
+      content:'<h2>FI</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/fi.jpg" /><a style="color:#090909;" href="https://soc.telkomuniversity.ac.id/">Website</a>'
         },
     {
           coords:{lat:-6.972124,lng:107.633045},
-      content:'<h2>FKB</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/FKB.jpg" />'
+      content:'<h2>FKB</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/FKB.jpg" /><a style="color:#090909;" href="https://scb.telkomuniversity.ac.id/">Website</a>'
         },
     
       ];

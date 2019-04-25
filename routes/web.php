@@ -184,7 +184,7 @@ Route::get('/admin/logout', function() {
     //
   Auth::logout();
 
-  return Redirect::to('/login');
+  return Redirect::to('/home');
 })->middleware('auth');
 Route::get('/alogin', 'AdminController@index');
 Route::get('/admin/home', 'AdminController@dashboard');

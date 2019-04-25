@@ -38,7 +38,7 @@
                   <a href="#" onclick="profile();" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="btn btn-default pull-right">
-                      <a href="{{'/logout'}}" 
+                      <a href="{{'admin/logout'}}" 
                           onclick="event.preventDefault();
                                    document.getElementById('logout-form').submit();">
                           Logout
