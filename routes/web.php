@@ -55,7 +55,7 @@ Route::get('/admin/deleteAsisten/{id_user}', 'AsistenController@destroy'
 
 // front-end
 Route::get('/asisten2', 'frontAsistenController@index');
-Route::get('/detil_asisten/{id_user}', 'frontAsistenController@detil_asisten'); 
+Route::get('/detil/asisten/{id_user}', 'frontAsistenController@detil_asisten'); 
 
 Route::get('/asisten/web', 'frontAsistenController@show_web');
 Route::get('/asisten/ids', 'frontAsistenController@show_ids');

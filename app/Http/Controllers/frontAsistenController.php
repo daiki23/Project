@@ -58,10 +58,10 @@ class frontAsistenController extends Controller
         return view('layouts/front_asisten', ['asistens' => $asistens]);
     }
 
-    public function detil_kamera($id_kamera)
+    public function detil_asisten($id_user)
     {
-        $kameras = DB::table('kameras')->where('id_kamera', $id_kamera)->first();
+        $asistens = DB::table('asistens')->where('id_user', $id_user)->first();
 
-        return view('layouts/detil_kamera', compact('kameras'));
+        return view('layouts/detil_asisten', compact('asistens'));
     }
 }
