@@ -38,9 +38,9 @@
                       <th>Id</th>
                       <th>Nama</th>
                       <th>Foto</th>
-                       @if(Auth::user()->level=='admin')
+                      <!--  @if(Auth::user()->level=='admin')
                       <th>Delete</th>
-                      @endif
+                      @endif -->
                     </tr>
                 </thead>
                 @foreach($user as $adm)
@@ -56,9 +56,9 @@
                       <td>{{$adm->id}}</td>
                       <td>{{$adm->name}}</td>
                     <td><img src="{{URL::to('/image/'.$adm->gambar)}}" alt="" width="140px" height="140px"></td>
-                      @if(Auth::user()->level=='admin')
+                     <!--  @if(Auth::user()->level=='admin')
                       <td><a href="deleteAdmin/{{$adm->id}}" class="btn btn-danger"><i class=" fa fa-trash"></i></a></td>
-                      @endif
+                      @endif -->
                     </tr>
                 </tbody>
 
