@@ -1800,82 +1800,86 @@ var garis74 = [
     flightPath.setMap(map);
 
     // Array of markers
-      var markers = [
+       var markers = [
         {
           coords:{lat:-6.9742851,lng:107.6309633},
-      content:'<h2>Gedung A</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Gedung A</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdA.jpg" />'
         },
         {
           coords:{lat:-6.9733192,lng:107.6310673},
-          content:'<h2>Danau Galau</h2><h4>Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4>'
+          content:'<h2>Danau Galau</h2><h4>Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4><img src="/source/map/danau.jpg" />'
         },
         {
           coords:{lat:-6.976399,lng:107.6307125},
-      content:'<h2>Gedung Serba Guna</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Gedung Serba Guna</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gsg.jpg" />'
         },
     {
       coords:{lat:-6.974837,lng:107.630969},
-      content:'<h2>Gedung B</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Gedung B</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdB.jpg" />'
     },
     {
       coords:{lat:-6.973964,lng:107.630293},
-      content:'<h2>Rektorat</h2><h4>Jl. Telekomunikasi, Jl. Terusan Buah Batu No.01, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><h4>https://goo.gl/maps/8t5fsWDDPizRtJ4W6</h4>'
+      content:'<h2>Rektorat</h2><h4>Jl. Telekomunikasi, Jl. Terusan Buah Batu No.01, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/rektorat.jpg" />'
     },
     {
       coords:{lat:-6.975500,lng:107.629639},
-      content:'<h2>Gedung P</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Gedung P</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdP.jpg" />'
     },
     {
       coords:{lat:-6.976155,lng:107.629728},
-      content:'<h2>Gedung O</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Gedung O</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdO.jpg" />'
     },
     {
           coords:{lat:-6.976570,lng:107.629329},
-      content:'<h2>Gedung N</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Gedung N</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gdN.jpg" />'
         },
     {
           coords:{lat:-6.977481,lng:107.629406},
-      content:'<h2>Student Center</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Student Center</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/sc.jpg" />'
         },
     {
           coords:{lat:-6.970624,lng:107.627913},
-      content:'<h2>Asrama Putra</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4>'
+      content:'<h2>Asrama Putra</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4><img src="/source/map/asramaputra.jpg" />'
         },
     {
           coords:{lat:-6.973329,lng:107.628778},
-      content:'<h2>Asrama Putri</h2><h4>Jalan Radio Palasari Road No.3, Citeureup, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>Asrama Putri</h2><h4>Jalan Radio Palasari Road No.3, Citeureup, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/asramaputri.jpg" />'
         },
     {
           coords:{lat:-6.972972,lng:107.629570},
-      content:'<h2>GKU</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>GKU</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/gku.jpg" />'
         },
     {
           coords:{lat:-6.975766,lng:107.632061},
-      content:'<h2>MSU</h2><h4>Jl. Telekomunikasi No. 1, Terusan Buah Batu, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257Jl. Telekomunikasi No. 1, Terusan Buah Batu, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>MSU</h2><h4>Jl. Telekomunikasi No. 1, Terusan Buah Batu, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257Jl. Telekomunikasi No. 1, Terusan Buah Batu, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/msu.jpg" />'
         },
     {
           coords:{lat:-6.971381,lng:107.631167},
-      content:'<h2>TUCH</h2><h4>No., Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4>'
+      content:'<h2>TUCH</h2><h4>No., Jl. Sukapura No.20, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40267</h4><img src="/source/map/tuch.jpg" />'
         },
     {
           coords:{lat:-6.971887,lng:107.631383},
-      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4>'
+      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4><img src="/source/map/fik.jpg" />'
         },
     {
           coords:{lat:-6.971524,lng:107.632205},
-      content:'<h2>FEB, Open Library, FKB</h2><h4>Jalan Telekomunikasi No.1 Lt.5, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>FEB, Open Library, FKB</h2><h4>Jalan Telekomunikasi No.1 Lt.5, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/feb.jpg" />'
         },
     {
           coords:{lat:-6.973091,lng:107.632488},
-      content:'<h2>FIK</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4>'
+      content:'<h2>FIT</h2><h4>Jalan Telekomunikasi No.1, Sukapura, Dayeuhkolot, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40553</h4><img src="/source/map/fit.jpg" />'
         },
     {
           coords:{lat:-6.975540,lng:107.631083},
-      content:'<h2>FRI</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>FRI</h2><h4>Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/fri.jpg" />'
         },
     {
           coords:{lat:-6.975808,lng:107.630699},
-      content:'<h2>FI</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4>'
+      content:'<h2>FI</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/fi.jpg" />'
+        },
+    {
+          coords:{lat:-6.972124,lng:107.633045},
+      content:'<h2>FKB</h2><h4>Jl. Telekomunikasi No.1, Sukapura, Dayeuhkolot, Bandung, Jawa Barat 40257</h4><img src="/source/map/FKB.jpg" />'
         },
     
       ];

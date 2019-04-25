@@ -64,11 +64,10 @@ class CariController extends Controller
 
     public function homeAsisten(Request $request)
     {
-        $query = $request->get('q');
-        $hasil = kamera::where('merk', 'LIKE', '%' . $query . '%')->orWhere('tipe','LIKE','%'.$query.'%')->paginate(10);
+          $query = $request->get('q');
+        $hasil = asisten::where('divisi', 'LIKE', '%' . $query . '%')->orWhere('nama','LIKE','%'.$query.'%')->orWhere('panggilan','LIKE','%'.$query.'%')->orWhere('id_user','LIKE','%'.$query.'%')->paginate(10);
      
-
-        return view('/layouts/result_sewaKamera',compact('hasil','query'));
+        return view('/layouts/result_asisten',compact('hasil','query'));
     }
 
         public function homeKamera(Request $request)
